@@ -1,0 +1,329 @@
+/* Add here all your CSS customizations */
+
+@font-face {
+    font-family: "can_RukdeawSVG";
+    src: url("../fonts/can_Rukdeaw01/can_Rukdeaw01.svg#can_Rukdeaw01") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "can_Rukdeaw";
+    src: url("../fonts/can_Rukdeaw01/can_Rukdeaw01.eot");
+    src: url("../fonts/can_Rukdeaw01/can_Rukdeaw01.eot?") format("embedded-opentype"), url("../fonts/can_Rukdeaw01/can_Rukdeaw01.woff") format("woff"), url("../fonts/can_Rukdeaw01/can_Rukdeaw01.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'Conv_TX_Timesquare';
+    src: url('../fonts/TX_Timesquare/TX_Timesquare.eot');
+    src: local('☺'), url('../fonts/TX_Timesquare/TX_Timesquare.woff') format('woff'), url('../fonts/TX_Timesquare/TX_Timesquare.ttf') format('truetype'), url('../fonts/TX_Timesquare/TX_Timesquare.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    line-height: 21px;
+}
+
+a {
+    color: #282d36;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    -ms-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0 0 16px 0;
+}
+
+h3 {
+    line-height: 30px;
+}
+
+@media (max-width: 991px) {
+    #header .header-nav-main nav > ul li a {
+        font-size: 20px;
+    }
+}
+
+
+.featured-box h4 {
+    letter-spacing: 0;
+}
+
+.header-nav-main {
+    font: 20px ThaiSansNeueRegularSVG,ThaiSansNeueRegular,sans-serif;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: left;
+    text-transform: uppercase;
+}
+
+#header .header-btn-collapse-nav {
+    margin: 32px 0 8px 15px;
+}
+
+/*#header .header-social-icons {*/
+    /*margin: 32px 0 0 10px;*/
+/*}*/
+
+#header .header-top {
+    background-color: #fff;
+
+}
+
+.call-to-action.call-to-action-in-footer-margin-top {
+    margin-top: 10px;
+}
+
+.call-to-action.call-to-action-in-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section.section {
+    background: #f4f4f4;
+    border-top: 5px solid #f1f1f1;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.featured-box h4 {
+    font-size: 2em;
+}
+
+.page-header {
+    background-color: #f6f6f6;
+    padding: 14px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.page-header h1 {
+    color: #999;
+}
+
+#footer {
+    background: #3c3c3c;
+    border-top: 4px solid #3c3c3c;
+    padding: 50px 0 0;
+}
+
+#nofooter {
+    background: #3c3c3c;
+    border-top: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    position: relative;
+    clear: both;
+    display: block;
+}
+
+#nofooter .footer-copyright {
+    background: #060606;
+    border-top: 4px solid #060606;
+    /* margin-top: 40px; */
+    padding: 30px 0 10px;
+}
+
+#nofooter .footer-copyright nav {
+    float: right;
+}
+
+#nofooter .footer-copyright nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nofooter .footer-copyright nav ul li:first-child {
+    border: medium none;
+    padding-left: 0;
+}
+#nofooter .footer-copyright nav ul li {
+    border-left: 1px solid #505050;
+    display: inline-block;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px;
+}
+
+#nofooter h1, #nofooter h2, #nofooter h3, #nofooter h4, #nofooter a {
+    color: #FFF;
+}
+
+#footer h4 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#footer .footer-ribbon {
+    margin: -70px 0 0 14px;
+}
+
+#footer .contact i {
+    margin: 3px 8px 10px 0;
+}
+
+.recent-posts .date {
+    margin-top: 0px;
+}
+
+.thumb-info .thumb-info-title {
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -1px;
+    padding: 4px 11px 6px;
+    z-index: 2;
+}
+
+.thumb-info .thumb-info-type {
+
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin: 2px -2px -19px -8px;
+    padding: 0px 4px;
+    text-transform: none;
+    z-index: 2;
+}
+
+.file-preview-image {
+    height: 80px;
+}
+
+.file-preview-other {
+    display: block;
+    padding-top: 50px;
+}
+
+.owl-carousel {
+    margin-bottom: 6px;
+}
+
+article.post-large .post-image {
+    margin-bottom: 0px;
+}
+
+li {
+    line-height: 20px;
+}
+
+.home-concept strong {
+    /*display: block;*/
+    font-family: can_Rukdeaw, sans-serif;
+    font-weight: normal;
+    font-size: 2.1em;
+    /*line-height: 36px;*/
+    /*position: relative;*/
+    /*margin-top: 30px;*/
+}
+
+h1.word-rotator-title .word-rotate {
+    margin-top: 4px;
+    /*margin-bottom: 0px;*/
+    /*line-height: 48px;*/
+}
+
+/*.rev_slider .tp-caption, .rev_slider .caption {*/
+    /*font-family: ThaiSansNeueRegular, ThaiSansNeueRegularSVG, sans-serif;*/
+/*}*/
+
+
+.slider-container .label-hand {
+    font-family: can_Rukdeaw, sans-serif;
+    font-weight: normal;
+    line-height: 92px;
+
+}
+
+.slider-container .label-black {
+    color: #333;
+}
+
+
+.slider-container .btn {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    padding: 15px 18px;
+}
+
+.slider-container .main-label {
+    font-size: 68px;
+}
+
+.slider-container .top-label {
+    font-size: 34px;
+}
+
+.slider-container .bottom-label {
+    font-size: 30px;
+}
+
+.list.list-icons li .fa, .list.list-icons li .icons {
+    top: 0px;
+}
+
+ul.history li p {
+    margin-left: 153px;
+}
+
+h2.label-hand {
+    font-family: can_Rukdeaw, sans-serif;
+    font-size: 36px;
+    margin: 0px 0 4px 0;
+}
+
+.owl-carousel {
+    margin-bottom: 0px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0px;
+}
+
+
+.field-contentsearch-subject > .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+
+}
+
+.input-group > .field-contentsearch-subject {
+    margin-bottom: 10px;
+}
+
+/*.breadcrumb > .active {*/
+    /*color: #f4f4f4;*/
+/*}*/
+
+/*.page-header h1 {*/
+    /*color: #fff;*/
+/*}*/
+
+/*.page-header a {*/
+     /*color: rgb(219, 219, 219);*/
+/*}*/
+

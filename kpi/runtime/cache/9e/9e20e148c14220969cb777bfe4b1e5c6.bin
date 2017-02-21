@@ -1,0 +1,397 @@
+a:2:{i:0;a:1:{i:0;a:1:{i:0;a:218:{s:5:"avg_a";N;s:5:"avg_c";N;s:5:"avg_d";N;s:2:"id";s:2:"99";s:8:"kpi_year";s:4:"2560";s:9:"kpi_level";s:18:"ประเทศ";s:6:"kpi_no";s:5:"083.1";s:9:"kpi_order";s:4:"0.00";s:5:"title";s:198:"ร้อยละของจังหวัดและหน่วยบริการที่ผ่านเกณฑ์คุณภาพข้อมูลสาเหตุการตาย";s:11:"description";s:1260:"<p>คุณภาพข้อมูล ประกอบด้วย</p>
+
+<p><strong>คุณภาพข้อมูลสาเหตุการตาย หมายถึง</strong> ข้อมูลสาเหตุการตายที่ไม่ทราบสาเหตุ (Ill Defined) ของจังหวัดไม่เกินร้อยละ 25 ของการตายทั้งหมด</p>
+
+<p><strong>ข้อมูลสาเหตุการตายที่ไม่ทราบสาเหตุ หมายถึง</strong> การเขียนรูปแบบการตายเป็นสาเหตุการตาย และการระบุสาเหตุไม่ชัดแจ้ง เช่น หัวใจล้มเหลว หายใจล้มเหลว ชรา ฯลฯ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<ul>
+	<li>symptoms, signs and ill-defined conditions (ICD10 codes R00-R99)</li>
+	<li>injuries undetermined whether intentional or unintentional</li>
+	<li>ill-defined cancers (ICD10 Code C80, and C97)</li>
+	<li>ill-defined cardiovascular diseases (ICD10 Code I47.2, I49.0, I46, I50, I51.4, I51.5, I51.6, I51.9 and I70.9).</li>
+</ul>
+";s:8:"kpi_unit";s:18:"ร้อยละ";s:6:"target";s:37:"ไม่เกินกว่า 25%";s:10:"pop_target";s:312:"1. สาเหตุการตาย : 76 จังหวัด (ยกเว้น กทม.) 2. ข้อมูลบริการสุขภาพ : หน่วยบริการภายใต้สังกัดสำนักงานปลัดกระทรวงสาธารณสุข";s:4:"goal";s:5:"25.00";s:7:"q1_goal";N;s:7:"q2_goal";s:5:"25.00";s:7:"q3_goal";N;s:7:"q4_goal";s:5:"25.00";s:7:"fixed_a";s:1:"0";s:7:"fixed_b";s:1:"1";s:7:"fixed_c";s:1:"0";s:7:"fixed_d";s:1:"0";s:7:"fixed_e";s:1:"0";s:7:"fixed_f";s:1:"0";s:9:"max_value";s:6:"100.00";s:6:"method";s:558:"<p>1.สาเหตุการตาย อ้างอิงจากฐานมรณบัตร กระทรวงมหาดไทย</p>
+
+<p>2.การบันทึกข้อมูลการให้บริการของหน่วยบริการในโปรแกรมพื้นฐานของหน่วยบริการ</p>
+
+<p>3.การบันทึกข้อมูลประวัติการให้บริการในเวชระเบียนของผู้ป่วย</p>
+";s:11:"data_source";s:233:"<p>1. สำนักนโยบายและยุทธศาสตร์</p>
+
+<p>2. หน่วยบริการสังกัดสำนักงานปลัดกระทรวงสาธารณสุข</p>
+";s:6:"a_unit";s:21:"จังหวัด";s:6:"a_desc";s:135:"จำนวนจังหวัดผ่านเกณฑ์คุณภาพข้อมูลสาเหตุการตาย";s:6:"b_unit";s:21:"จังหวัด";s:6:"b_desc";s:89:"จำนวนจังหวัดทั้งหมด (ยกเว้น กทม.)";s:6:"c_unit";s:0:"";s:6:"c_desc";s:0:"";s:6:"d_unit";s:0:"";s:6:"d_desc";s:0:"";s:6:"e_unit";s:0:"";s:6:"e_desc";s:0:"";s:6:"f_unit";s:0:"";s:6:"f_desc";s:0:"";s:8:"operator";s:2:">=";s:7:"formula";s:9:"(A/B)*100";s:9:"a_unit_q1";N;s:9:"a_desc_q1";N;s:9:"b_unit_q1";N;s:9:"b_desc_q1";N;s:9:"c_unit_q1";N;s:9:"c_desc_q1";N;s:9:"d_unit_q1";N;s:9:"d_desc_q1";N;s:9:"e_unit_q1";N;s:9:"e_desc_q1";N;s:9:"f_unit_q1";N;s:9:"f_desc_q1";N;s:11:"operator_q1";N;s:10:"formula_q1";N;s:9:"a_unit_q2";N;s:9:"a_desc_q2";N;s:9:"b_unit_q2";N;s:9:"b_desc_q2";N;s:9:"c_unit_q2";N;s:9:"c_desc_q2";N;s:9:"d_unit_q2";N;s:9:"d_desc_q2";N;s:9:"e_unit_q2";N;s:9:"e_desc_q2";N;s:9:"f_unit_q2";N;s:9:"f_desc_q2";N;s:11:"operator_q2";N;s:10:"formula_q2";N;s:9:"a_unit_q3";N;s:9:"a_desc_q3";N;s:9:"b_unit_q3";N;s:9:"b_desc_q3";N;s:9:"c_unit_q3";N;s:9:"c_desc_q3";N;s:9:"d_unit_q3";N;s:9:"d_desc_q3";N;s:9:"e_unit_q3";N;s:9:"e_desc_q3";N;s:9:"f_unit_q3";N;s:9:"f_desc_q3";N;s:11:"operator_q3";N;s:10:"formula_q3";N;s:9:"a_unit_q4";N;s:9:"a_desc_q4";N;s:9:"b_unit_q4";N;s:9:"b_desc_q4";N;s:9:"c_unit_q4";N;s:9:"c_desc_q4";N;s:9:"d_unit_q4";N;s:9:"d_desc_q4";N;s:9:"e_unit_q4";N;s:9:"e_desc_q4";N;s:9:"f_unit_q4";N;s:9:"f_desc_q4";N;s:11:"operator_q4";N;s:10:"formula_q4";N;s:14:"level_ministry";s:1:"1";s:12:"level_region";s:1:"0";s:14:"level_province";s:1:"0";s:14:"level_impotant";s:1:"0";s:16:"level_ceo_assess";s:1:"0";s:4:"tags";s:13:"PA,สตป.";s:9:"eval_freq";s:32:"ไตรมาส 2 และ 4";s:8:"baseline";s:2533:"<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="width:155px">
+			<p style="text-align:center"><strong>Baseline data</strong></p>
+			</td>
+			<td rowspan="2" style="width:55px">
+			<p style="text-align:center"><strong>หน่วยวัด</strong></p>
+			</td>
+			<td colspan="3" style="width:274px">
+			<p style="text-align:center"><strong>ผลการดำเนินงานในรอบปีงบประมาณ พ.ศ.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:85px">
+			<p style="text-align:center"><strong>2557</strong></p>
+			</td>
+			<td style="width:94px">
+			<p style="text-align:center"><strong>2558</strong></p>
+			</td>
+			<td style="width:95px">
+			<p style="text-align:center"><strong>2559</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height:56px; width:155px">
+			<p>1.สาเหตุการตายที่ไม่ทราบสาเหตุ (Ill-define)</p>
+
+			<p>ยกเว้น กรุงเทพมหานคร</p>
+			</td>
+			<td style="height:56px; width:55px">
+			<p style="text-align:center">ร้อยละ</p>
+			</td>
+			<td style="height:56px; width:85px">
+			<p style="text-align:center">-</p>
+			</td>
+			<td style="height:56px; width:94px">
+			<p style="text-align:center">-</p>
+			</td>
+			<td style="height:56px; width:95px">
+			<p style="text-align:center">-</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155px">
+			<p>2.คุณภาพข้อมูล</p>
+
+			<p>เวชระเบียนและการวินิจฉัยโรค</p>
+
+			<p>&nbsp; 2.1 ผู้ป่วยใน</p>
+
+			<p>&nbsp; 2.2&nbsp; ผู้ป่วยนอก</p>
+			</td>
+			<td style="width:55px">
+			<p style="text-align:center">ร้อยละ</p>
+			</td>
+			<td style="width:85px">
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center">-</p>
+
+			<p style="text-align:center">-</p>
+			</td>
+			<td style="width:94px">
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center">97.39</p>
+
+			<p style="text-align:center">89.39</p>
+			</td>
+			<td style="width:95px">
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center">-</p>
+
+			<p style="text-align:center">-</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+";s:9:"eval_rule";s:6477:"<p><strong>เกณฑ์การประเมิน :</strong></p>
+
+<p><strong>สาเหตุการตาย</strong></p>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center"><strong>ปี</strong></p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center"><strong>รอบ 9 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center"><strong>รอบ 12 เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2560</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 25 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 25 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2561</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 30 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 30 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2562</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 35 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 35 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2563</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 40 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 40 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2564</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 45 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 45 %</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+
+<p><strong>ข้อมูลบริการสุขภาพ</strong></p>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center"><strong>ปี</strong></p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center"><strong>รอบ 9 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center"><strong>รอบ 12 เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2560</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 80 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 80 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2561</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 90 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 90 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2562</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 95 %</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">ไม่น้อยกว่า 95 %</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2563</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p style="text-align:center">2564</p>
+			</td>
+			<td style="width:134px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+			<td style="width:132px">
+			<p style="text-align:center">&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+";s:11:"eval_method";s:1143:"<p>1.สาเหตุการตาย : ประเมินจากสาเหตุการตายตามฐานข้อมูลจดทะเบียนการตาย(มรณบัตร)</p>
+
+<p>2.ข้อมูลบริการสุขภาพ : ประเมินจากคุณภาพข้อมูลเวชระเบียนและการวินิจฉัยโรคตาม</p>
+
+<p>&nbsp;&nbsp; คู่มือมาตรฐานการเก็บรวบรวมและบันทึกข้อมูลในสถานพยาบาล พ.ศ. 2559</p>
+
+<p><strong>หมายเหตุ :</strong> การประเมินร้อยละของจังหวัดและหน่วยบริการที่ผ่านเกณฑ์คุณภาพข้อมูลต้องผ่านทั้ง คุณภาพข้อมูลสาเหตุการตาย และ คุณภาพข้อมูลบริการสุขภาพ จึงจะถือว่าผ่านเกณฑ์</p>
+";s:3:"doc";s:570:"<p>1. มาตรฐานการเก็บรวบรวมและบันทึกข้อมูลในสถานพยาบาล พ.ศ. 2559 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;&nbsp; (http://thcc.or.th/ebook.html)</p>
+
+<p>2. คู่มือการตรวจสอบและควบคุมคุณภาพข้อมูล (http://thcc.or.th/ebook.html)</p>
+
+<p>3. คู่มือการสรุปสาเหตุการตาย และการรับรองสาเหตุการตาย</p>
+";s:12:"tech_support";s:3965:"<p style="margin-left:178.85pt"><u>ข้อมูลบริการสุขภาพ</u></p>
+
+<p style="margin-left:178.85pt">1. นางมะลิวัลย์&nbsp; ยืนยงสุวรรณ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ผู้อำนวยการกลุ่มภารกิจด้านข้อมูลข่าว สารสุขภาพ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-590-1492&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ :</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-965-9816&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : thcc.health@hotmail.com</p>
+
+<p style="margin-left:178.85pt"><strong>กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ สำนักนโยบายและยุทธศาสตร์</strong></p>
+
+<p style="margin-left:178.85pt">2. นายมณฑล&nbsp; บัวแก้ว&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; หัวหน้ากลุ่มข้อมูลข่าวสารสุขภาพ 3</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-590-1497&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ :</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-591-8627&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : monthon.b@moph.mail.go.th</p>
+
+<p style="margin-left:178.85pt"><strong>กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ สำนักนโยบายและยุทธศาสตร์</strong></p>
+
+<p style="margin-left:178.85pt"><u>ข้อมูลสาเหตุการตาย</u></p>
+
+<p style="margin-left:178.85pt">3. นางชูจิตร&nbsp; นาชีวะ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; หัวหน้ากลุ่มข้อมูลข่าวสารสุขภาพ 1</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-590-1491&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ :</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-591-8194&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;E-mail : chujit@health.moph.go.th</p>
+
+<p style="margin-left:178.85pt"><strong>กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ สำนักนโยบายและยุทธศาสตร์</strong></p>
+
+<p>4. นางนพรัตน์&nbsp;&nbsp; จันทศรี&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;รองหัวหน้ากลุ่มข้อมูลข่าวสารสุขภาพ 1</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-590-1491&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ :</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-591-8194&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : jantasri@health2.moph.go.th</p>
+
+<p style="margin-left:178.85pt"><strong>กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ สำนักนโยบายและยุทธศาสตร์</strong></p>
+
+<p style="margin-left:178.85pt">&nbsp;</p>
+";s:8:"director";s:190:"<p>กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ&nbsp; สำนักนโยบายและยุทธศาสตร์</p>
+";s:8:"reporter";s:1567:"<p>1.นายมณฑล&nbsp; บัวแก้ว &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; หัวหน้ากลุ่มข้อมูลข่าวสารสุขภาพ 3</p>
+
+<p>&nbsp; &nbsp;โทรศัพท์ที่ทำงาน : 02-590-1497 &nbsp; &nbsp; &nbsp; โทรศัพท์มือถือ :</p>
+
+<p>&nbsp;&nbsp;&nbsp;โทรสาร : 02-591-8627 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E-mail : monthon.b@moph.mail.go.th</p>
+
+<p><strong>&nbsp; &nbsp;กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ สำนักนโยบายและยุทธศาสตร์</strong></p>
+
+<p>2.นางนพรัตน์&nbsp; จันทศรี &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;รองหัวหน้ากลุ่มข้อมูลข่าวสารสุขภาพ 1</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-590-1491 &nbsp; &nbsp; &nbsp; โทรศัพท์มือถือ :</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-591-8194 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E-mail : jantasri@health.moph.go.th</p>
+
+<p><strong>กลุ่มภารกิจด้านข้อมูลข่าวสารสุขภาพ สำนักนโยบายและยุทธศาสตร์</strong></p>
+";s:11:"sql_display";s:0:"";s:21:"areabase_kpi_provcode";s:0:"";s:23:"areabase_kpi_regioncode";s:0:"";s:6:"remark";s:0:"";s:12:"content_date";N;s:11:"last_update";s:19:"2017-01-30 16:23:35";s:2:"4e";s:2:"04";s:7:"4e_name";s:109:"Governance Excellence (บริหารเป็นเลิศด้วยธรรมาภิบาล) ";s:7:"plan_id";s:2:"13";s:9:"plan_name";s:109:"การพัฒนาระบบข้อมูลสารสนเทศด้านสุขภาพ ";s:10:"project_id";s:2:"42";s:12:"project_name";s:163:"โครงการพัฒนาระบบข้อมูลข่าวสารเทคโนโลยีสุขภาพแห่งชาติ (NHIS)";s:11:"responsible";s:72:"สำนักนโยบายและยุทธศาสตร์";s:2:"pa";s:1:"1";s:3:"bie";s:1:"1";s:3:"hdc";s:0:"";s:12:"hosp_visible";s:2:"01";s:14:"hosp_specifics";s:0:"";s:11:"hosp_ignore";N;s:5:"level";s:27:"ทุก 6 เดือน";s:7:"user_id";N;s:6:"my_kpi";s:1:"0";s:12:"my_kpi_group";N;s:9:"parent_id";s:2:"83";s:6:"result";N;s:9:"result_q1";N;s:9:"result_q2";N;s:9:"result_q3";N;s:9:"result_q4";N;s:10:"result_r01";N;s:10:"result_r02";N;s:10:"result_r03";N;s:10:"result_r04";N;s:10:"result_r05";N;s:10:"result_r06";N;s:10:"result_r07";N;s:10:"result_r08";N;s:10:"result_r09";N;s:10:"result_r10";N;s:10:"result_r11";N;s:10:"result_r12";N;s:10:"result_r13";N;s:13:"result_r01_q1";N;s:13:"result_r01_q2";N;s:13:"result_r01_q3";N;s:13:"result_r01_q4";N;s:13:"result_r02_q1";N;s:13:"result_r02_q2";N;s:13:"result_r02_q3";N;s:13:"result_r02_q4";N;s:13:"result_r03_q1";N;s:13:"result_r03_q2";N;s:13:"result_r03_q3";N;s:13:"result_r03_q4";N;s:13:"result_r04_q1";N;s:13:"result_r04_q2";N;s:13:"result_r04_q3";N;s:13:"result_r04_q4";N;s:13:"result_r05_q1";N;s:13:"result_r05_q2";N;s:13:"result_r05_q3";N;s:13:"result_r05_q4";N;s:13:"result_r06_q1";N;s:13:"result_r06_q2";N;s:13:"result_r06_q3";N;s:13:"result_r06_q4";N;s:13:"result_r07_q1";N;s:13:"result_r07_q2";N;s:13:"result_r07_q3";N;s:13:"result_r07_q4";N;s:13:"result_r08_q1";N;s:13:"result_r08_q2";N;s:13:"result_r08_q3";N;s:13:"result_r08_q4";N;s:13:"result_r09_q1";N;s:13:"result_r09_q2";N;s:13:"result_r09_q3";N;s:13:"result_r09_q4";N;s:13:"result_r10_q1";N;s:13:"result_r10_q2";N;s:13:"result_r10_q3";N;s:13:"result_r10_q4";N;s:13:"result_r11_q1";N;s:13:"result_r11_q2";N;s:13:"result_r11_q3";N;s:13:"result_r11_q4";N;s:13:"result_r12_q1";N;s:13:"result_r12_q2";N;s:13:"result_r12_q3";N;s:13:"result_r12_q4";N;s:13:"result_r13_q1";N;s:13:"result_r13_q2";N;s:13:"result_r13_q3";N;s:13:"result_r13_q4";N;s:12:"attach_files";N;s:12:"content_file";N;s:3:"ref";N;s:12:"owner_off_id";N;s:11:"page_result";N;s:11:"kpi_a_value";N;s:11:"kpi_b_value";N;s:11:"kpi_c_value";N;s:11:"kpi_d_value";N;s:11:"kpi_e_value";N;s:11:"kpi_f_value";N;s:10:"kpi_result";N;s:10:"avg_result";N;}}}i:1;N;}

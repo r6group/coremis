@@ -1,0 +1,23 @@
+{
+	"name": "vakorovin/yii2-jqplot-widget",
+	"description": "Yii2 jqPlot widget",
+	"keywords": ["yii2", "extension", "yii2 widget", "jqPlot", "jQuery Plotting Plugin"],
+	"homepage": "https://github.com/vakorovin/yii2-jqplot-widget",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"version": "0.3.1",
+	"authors": [
+		{
+			"name": "Vladimir Korovin",
+			"email": "rolan1986@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"vakorovin\\yii2_jqplot_widget\\": ""
+		}
+	}
+}

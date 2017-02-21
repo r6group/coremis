@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/weather.css">
+</head>
+<body>
+<div class="info"><p>Click on the city to change it, and press enter to save and update weather data.</p><p>You can also change the temperature scale (Fahrenheit / Celsius) by clicking in the top right corner.</p></div>
+<div class="wrapper shadow">
+    <div class="top">
+        <div class="btn noselect" id="btn">C</div>
+        <img id="big" src="" alt="">
+        <p id="deg" class="text deg"></p>
+        <input class="text" type="text" id="city" value="">
+    </div>
+    <div class="bot">
+        <ul>
+            <li>
+                <h1 id="forecast0"></h1>
+                <img id="forecastimg0" src=""></img>
+                <p id="forecastdeg0"></p>
+            </li>
+            <li>
+                <h1 id="forecast1"></h1>
+                <img id="forecastimg1" src=""></img>
+                <p id="forecastdeg1"></p>
+            </li>
+            <li>
+                <h1 id="forecast2"></h1>
+                <img id="forecastimg2" src=""></img>
+                <p id="forecastdeg2"></p>
+            </li>
+            <li>
+                <h1 id="forecast3"></h1>
+                <img  id="forecastimg3" src=""></img>
+                <p id="forecastdeg3"></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="weather.js"></script>
+</body>
+</html>

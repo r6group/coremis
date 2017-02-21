@@ -1,0 +1,1798 @@
+2015-12-22 14:33:24 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\SiteController' in file: /Users/apple/Google Drive/htdocs/work/api/controllers/SiteController.php. Namespace missing?' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(563): class_exists('app\\controllers...')
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('site')
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('site/index')
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2015-12-22 14:33:24 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450698450787'
+    'HstPn3279024' => '3'
+    'HstPt3279024' => '3'
+    'HstCnv3279024' => '1'
+    'HstCns3279024' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Vnj8xMCoAQ0AABszidgAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450698450787; HstPn3279024=3; HstPt3279024=3; HstCnv3279024=1; HstCns3279024=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50126'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450769604.945
+    'REQUEST_TIME' => 1450769604
+]
+2015-12-22 14:40:57 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1".' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:40:57 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vnj@icCoAQ0AAEoZWS8AAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vnj@icCoAQ0AAEoZWS8AAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50412'
+    'REDIRECT_URL' => '/api/v1/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770057.203
+    'REQUEST_TIME' => 1450770057
+]
+2015-12-22 14:41:25 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\SiteController' in file: /Users/apple/Google Drive/htdocs/work/api/controllers/SiteController.php. Namespace missing?' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(563): class_exists('app\\controllers...')
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('site')
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('site/index')
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2015-12-22 14:41:25 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Vnj@pcCoAQ0AABniQSMAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50442'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770085.61
+    'REQUEST_TIME' => 1450770085
+]
+2015-12-22 14:41:44 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\SiteController' in file: /Users/apple/Google Drive/htdocs/work/api/controllers/SiteController.php. Namespace missing?' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(563): class_exists('app\\controllers...')
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('site')
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('site/index')
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2015-12-22 14:41:44 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Vnj@uMCoAQ0AACQRewUAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50457'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770104.309
+    'REQUEST_TIME' => 1450770104
+]
+2015-12-22 14:42:04 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\SiteController' in file: /Users/apple/Google Drive/htdocs/work/api/controllers/SiteController.php. Namespace missing?' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(563): class_exists('app\\controllers...')
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('site')
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('site/index')
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2015-12-22 14:42:04 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Vnj@zMCoAQ0AAEsnvWwAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50465'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770124.181
+    'REQUEST_TIME' => 1450770124
+]
+2015-12-22 14:42:20 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:42:20 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Vnj@3MCoAQ0AABniQSQAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50485'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770140.932
+    'REQUEST_TIME' => 1450770140
+]
+2015-12-22 14:43:29 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:43:29 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Vnj-IcCoAQ0AAEoUpG4AAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50502'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770209.223
+    'REQUEST_TIME' => 1450770209
+]
+2015-12-22 14:47:40 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:47:40 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkAHMCoAQ0AAEoYe@kAAAAJ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50561'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770460.911
+    'REQUEST_TIME' => 1450770460
+]
+2015-12-22 14:47:58 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:47:58 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkALsCoAQ0AACQRewcAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770478.095
+    'REQUEST_TIME' => 1450770478
+]
+2015-12-22 14:50:43 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:50:43 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkA08CoAQ0AABnlk5oAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50599'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770643.617
+    'REQUEST_TIME' => 1450770643
+]
+2015-12-22 14:50:51 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:50:51 [::1][-][-][info][application] $_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkA28CoAQ0AAEoZWTAAAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50601'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/index.php'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770651.098
+    'REQUEST_TIME' => 1450770651
+]
+2015-12-22 14:51:02 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:51:02 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkA5sCoAQ0AAEoUpG8AAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50607'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_URI' => '/api/index.php?r=site/index'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770662.624
+    'REQUEST_TIME' => 1450770662
+]
+2015-12-22 14:53:07 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/index".' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:53:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/index'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkBY8CoAQ0AAEsnvW8AAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50650'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/index'
+    'REQUEST_URI' => '/api/index.php?r=v1/index'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770787.703
+    'REQUEST_TIME' => 1450770787
+]
+2015-12-22 14:53:38 [::1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/info', Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#12 {main}
+2015-12-22 14:53:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/info'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkBgsCoAQ0AABnhIaYAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50658'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/info'
+    'REQUEST_URI' => '/api/index.php?r=v1/info'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770818.82
+    'REQUEST_TIME' => 1450770818
+]
+2015-12-22 14:54:05 [::1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('test', Array)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/info/test', Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#12 {main}
+2015-12-22 14:54:05 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/info/test'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkBncCoAQ0AAEowLWYAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50663'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/info/test'
+    'REQUEST_URI' => '/api/index.php?r=v1/info/test'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770845.302
+    'REQUEST_TIME' => 1450770845
+]
+2015-12-22 14:55:57 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:55:57 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts/test'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCDMCoAQ0AAEoYe@oAAAAJ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50691'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts/test'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts/test'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770956.999
+    'REQUEST_TIME' => 1450770956
+]
+2015-12-22 14:56:12 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/scripts/1' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('1', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/1', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:56:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts/1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCHMCoAQ0AACQRewgAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50699'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts/1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts/1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770972.793
+    'REQUEST_TIME' => 1450770972
+]
+2015-12-22 14:56:29 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'healthscript', 'healthscriptAdm...', NULL)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(389): yii\db\Command->queryScalar()
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/ActiveQuery.php(339): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(296): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#14 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#15 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(174): yii\data\BaseDataProvider->getModels()
+#16 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(143): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#17 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#18 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#19 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#20 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#21 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts', Array)
+#22 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(389): yii\db\Command->queryScalar()
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/ActiveQuery.php(339): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(296): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(174): yii\data\BaseDataProvider->getModels()
+#14 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(143): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#15 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#16 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#17 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#18 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#19 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts', Array)
+#20 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2015-12-22 14:56:29 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCLcCoAQ0AABnlk5sAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50703'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450770989.283
+    'REQUEST_TIME' => 1450770989
+]
+2015-12-22 14:57:05 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'healthscript', 'healthscriptAdm...', NULL)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(389): yii\db\Command->queryScalar()
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/ActiveQuery.php(339): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(296): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#14 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#15 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(174): yii\data\BaseDataProvider->getModels()
+#16 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(143): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#17 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#18 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#19 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#20 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#21 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts', Array)
+#22 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(389): yii\db\Command->queryScalar()
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/ActiveQuery.php(339): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Query.php(296): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/data/BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(174): yii\data\BaseDataProvider->getModels()
+#14 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Serializer.php(143): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#15 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#16 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#17 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#18 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#19 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts', Array)
+#20 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2015-12-22 14:57:05 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCUcCoAQ0AAEoZWTEAAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50709'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts&id=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts&id=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771025.26
+    'REQUEST_TIME' => 1450771025
+]
+2015-12-22 14:57:17 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'พารามิเตอร์ที่จำเป็นขาดหายไป: sid' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#6 {main}
+2015-12-22 14:57:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts/info'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCXcCoAQ0AAEoUpHAAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50713'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts/info&id=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts/info&id=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771037.036
+    'REQUEST_TIME' => 1450771037
+]
+2015-12-22 14:57:23 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'healthscript', 'healthscriptAdm...', NULL)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/apple/Google Drive/htdocs/work/api/modules/v1/controllers/ScriptsController.php(100): yii\db\Command->queryAll()
+#8 [internal function]: api\modules\v1\controllers\ScriptsController->actionInfo('1')
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/apple/Google Drive/htdocs/work/api/modules/v1/controllers/ScriptsController.php(100): yii\db\Command->queryAll()
+#6 [internal function]: api\modules\v1\controllers\ScriptsController->actionInfo('1')
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2015-12-22 14:57:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts/info'
+    'sid' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCY8CoAQ0AABnhIacAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50715'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts/info&sid=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts/info&sid=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771043.546
+    'REQUEST_TIME' => 1450771043
+]
+2015-12-22 14:58:39 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'healthscript', 'healthscriptAdm...', NULL)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/apple/Google Drive/htdocs/work/api/modules/v1/controllers/ScriptsController.php(100): yii\db\Command->queryAll()
+#8 [internal function]: api\modules\v1\controllers\ScriptsController->actionInfo('1')
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/apple/Google Drive/htdocs/work/api/modules/v1/controllers/ScriptsController.php(100): yii\db\Command->queryAll()
+#6 [internal function]: api\modules\v1\controllers\ScriptsController->actionInfo('1')
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2015-12-22 14:58:39 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts/info'
+    'sid' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCr8CoAQ0AAEsnvXAAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50727'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts/info&sid=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts/info&sid=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771119.519
+    'REQUEST_TIME' => 1450771119
+]
+2015-12-22 14:58:42 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'healthscript', 'healthscriptAdm...', NULL)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/apple/Google Drive/htdocs/work/api/modules/v1/controllers/ScriptsController.php(100): yii\db\Command->queryAll()
+#8 [internal function]: api\modules\v1\controllers\ScriptsController->actionInfo('1')
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#12 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#13 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'healthscript'@'localhost' (using password: YES)' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/apple/Google Drive/htdocs/work/api/modules/v1/controllers/ScriptsController.php(100): yii\db\Command->queryAll()
+#6 [internal function]: api\modules\v1\controllers\ScriptsController->actionInfo('1')
+#7 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('info', Array)
+#10 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/scripts/info', Array)
+#11 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2015-12-22 14:58:42 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts/info'
+    'sid' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkCssCoAQ0AAEowLWgAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50729'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts/info&sid=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts/info&sid=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771122.613
+    'REQUEST_TIME' => 1450771122
+]
+2015-12-22 14:59:41 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 14:59:41 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts'
+    'sid' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkC7cCoAQ0AACQRewkAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50744'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts&sid=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts&sid=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771181.405
+    'REQUEST_TIME' => 1450771181
+]
+2015-12-22 15:01:24 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/apple/Google Drive/htdocs/work/api/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2015-12-22 15:01:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'v1/scripts'
+    'sid' => '1'
+]
+
+$_COOKIE = [
+    '_atshc' => '{}'
+    '__atuvc' => '32|48,112|49'
+    'PHPSESSID' => '613250h9iltlapik0odc64gba7'
+    'HstCfa3279024' => '1450698298744'
+    'HstCmu3279024' => '1450698298744'
+    '_csrf' => 'd622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X6UHf2YaINAb_d3ivej6-CxeZSKrARtk\";}'
+    '_identity' => '89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[23,\"75HJOBMZrIU9tK9KHtW8D9Er7gH2BraP\",2592000]\";}'
+    'HstCla3279024' => '1450769783270'
+    'HstPn3279024' => '4'
+    'HstPt3279024' => '7'
+    'HstCnv3279024' => '2'
+    'HstCns3279024' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnkDVMCoAQ0AABnlk5wAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,th;q=0.6'
+    'HTTP_COOKIE' => '_atshc={}; __atuvc=32%7C48%2C112%7C49; PHPSESSID=613250h9iltlapik0odc64gba7; HstCfa3279024=1450698298744; HstCmu3279024=1450698298744; _csrf=d622aa1d2a3ecb9b51e8638ab1a88ecf766f312a458e9e0d69c6d4b60aa85101a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X6UHf2YaINAb_d3ivej6-CxeZSKrARtk%22%3B%7D; _identity=89e3690f7b72384db946f6601b783c8465353afd54ea9d70e10a879159d23f0fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B23%2C%2275HJOBMZrIU9tK9KHtW8D9Er7gH2BraP%22%2C2592000%5D%22%3B%7D; HstCla3279024=1450769783270; HstPn3279024=4; HstPt3279024=7; HstCnv3279024=2; HstCns3279024=2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/api'
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/apple/Google Drive/htdocs/work/api/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/apple/Google Drive/htdocs/work/api/web/index.php'
+    'REMOTE_PORT' => '50769'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/scripts&sid=1'
+    'REQUEST_URI' => '/api/index.php?r=v1/scripts&sid=1'
+    'SCRIPT_NAME' => '/api/index.php'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1450771284.137
+    'REQUEST_TIME' => 1450771284
+]

@@ -1,0 +1,787 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:5:"5.6.8";s:10:"yiiVersion";s:6:"2.0.10";s:11:"application";a:4:{s:3:"yii";s:6:"2.0.10";s:4:"name";s:133:"ระบบติดตามผลการปฏิบัติราชการ กระทรวงสาธารณสุข";s:3:"env";s:4:"prod";s:5:"debug";b:0;}s:3:"php";a:4:{s:7:"version";s:5:"5.6.8";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:80:{s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:69:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-codeception";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:63:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:61:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:63:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-faker";}}s:26:"creocoder/yii2-nested-sets";a:3:{s:4:"name";s:26:"creocoder/yii2-nested-sets";s:7:"version";s:7:"0.9.0.0";s:5:"alias";a:1:{s:21:"@creocoder/nestedsets";s:75:"/Users/apple/Google Drive/htdocs/work/vendor/creocoder/yii2-nested-sets/src";}}s:30:"kartik-v/yii2-widget-typeahead";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-typeahead";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:17:"@kartik/typeahead";s:75:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-typeahead";}}s:28:"kartik-v/yii2-widget-spinner";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-spinner";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/spinner";s:73:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-spinner";}}s:28:"kartik-v/yii2-widget-sidenav";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-sidenav";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/sidenav";s:73:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-sidenav";}}s:26:"kartik-v/yii2-widget-growl";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-growl";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:13:"@kartik/growl";s:71:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-growl";}}s:28:"kartik-v/yii2-widget-depdrop";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-depdrop";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:15:"@kartik/depdrop";s:73:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-depdrop";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:7:"1.4.0.0";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:80:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-datetimepicker";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.3.3.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-datepicker";}}s:31:"kartik-v/yii2-widget-colorinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-colorinput";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/color";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-colorinput";}}s:26:"kartik-v/yii2-widget-alert";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-alert";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:13:"@kartik/alert";s:71:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-alert";}}s:26:"kartik-v/yii2-widget-affix";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-affix";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/affix";s:71:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-affix";}}s:21:"kartik-v/yii2-widgets";a:3:{s:4:"name";s:21:"kartik-v/yii2-widgets";s:7:"version";s:7:"3.4.0.0";s:5:"alias";a:1:{s:15:"@kartik/widgets";s:66:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widgets";}}s:28:"2amigos/yii2-ckeditor-widget";a:3:{s:4:"name";s:28:"2amigos/yii2-ckeditor-widget";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:19:"@dosamigos/ckeditor";s:77:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-ckeditor-widget/src";}}s:21:"kartik-v/yii2-builder";a:3:{s:4:"name";s:21:"kartik-v/yii2-builder";s:7:"version";s:7:"1.6.0.0";s:5:"alias";a:1:{s:15:"@kartik/builder";s:66:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-builder";}}s:26:"vova07/yii2-fileapi-widget";a:3:{s:4:"name";s:26:"vova07/yii2-fileapi-widget";s:7:"version";s:7:"0.1.8.0";s:5:"alias";a:1:{s:15:"@vova07/fileapi";s:71:"/Users/apple/Google Drive/htdocs/work/vendor/vova07/yii2-fileapi-widget";}}s:22:"nemmo/yii2-attachments";a:3:{s:4:"name";s:22:"nemmo/yii2-attachments";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:18:"@nemmo/attachments";s:67:"/Users/apple/Google Drive/htdocs/work/vendor/nemmo/yii2-attachments";}}s:18:"cebe/yii2-gravatar";a:3:{s:4:"name";s:18:"cebe/yii2-gravatar";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:14:"@cebe/gravatar";s:77:"/Users/apple/Google Drive/htdocs/work/vendor/cebe/yii2-gravatar/cebe/gravatar";}}s:27:"2amigos/yii2-gallery-widget";a:3:{s:4:"name";s:27:"2amigos/yii2-gallery-widget";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:18:"@dosamigos/gallery";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-gallery-widget/src";}}s:31:"2amigos/yii2-file-upload-widget";a:3:{s:4:"name";s:31:"2amigos/yii2-file-upload-widget";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:21:"@dosamigos/fileupload";s:80:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-file-upload-widget/src";}}s:20:"yiisoft/yii2-imagine";a:3:{s:4:"name";s:20:"yiisoft/yii2-imagine";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:12:"@yii/imagine";s:65:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-imagine";}}s:31:"zelenin/yii2-request-log-module";a:4:{s:4:"name";s:31:"zelenin/yii2-request-log-module";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:31:"@Zelenin/yii/modules/RequestLog";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/zelenin/yii2-request-log-module";}s:9:"bootstrap";s:40:"Zelenin\yii\modules\RequestLog\Bootstrap";}s:26:"kartik-v/yii2-tree-manager";a:3:{s:4:"name";s:26:"kartik-v/yii2-tree-manager";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/tree";s:71:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-tree-manager";}}s:24:"kartik-v/yii2-dropdown-x";a:3:{s:4:"name";s:24:"kartik-v/yii2-dropdown-x";s:7:"version";s:7:"1.2.0.0";s:5:"alias";a:1:{s:16:"@kartik/dropdown";s:69:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-dropdown-x";}}s:31:"2amigos/yii2-date-picker-widget";a:3:{s:4:"name";s:31:"2amigos/yii2-date-picker-widget";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:21:"@dosamigos/datepicker";s:80:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-date-picker-widget/src";}}s:24:"filsh/yii2-oauth2-server";a:4:{s:4:"name";s:24:"filsh/yii2-oauth2-server";s:7:"version";s:7:"2.0.1.0";s:5:"alias";a:1:{s:24:"@filsh/yii2/oauth2server";s:69:"/Users/apple/Google Drive/htdocs/work/vendor/filsh/yii2-oauth2-server";}s:9:"bootstrap";s:33:"filsh\yii2\oauth2server\Bootstrap";}s:19:"kartik-v/yii2-nav-x";a:3:{s:4:"name";s:19:"kartik-v/yii2-nav-x";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:11:"@kartik/nav";s:64:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-nav-x";}}s:25:"kartik-v/yii2-field-range";a:3:{s:4:"name";s:25:"kartik-v/yii2-field-range";s:7:"version";s:7:"1.3.0.0";s:5:"alias";a:1:{s:13:"@kartik/field";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-field-range";}}s:31:"leandrogehlen/yii2-querybuilder";a:3:{s:4:"name";s:31:"leandrogehlen/yii2-querybuilder";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:27:"@leandrogehlen/querybuilder";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/leandrogehlen/yii2-querybuilder";}}s:23:"creocoder/yii2-taggable";a:3:{s:4:"name";s:23:"creocoder/yii2-taggable";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:19:"@creocoder/taggable";s:72:"/Users/apple/Google Drive/htdocs/work/vendor/creocoder/yii2-taggable/src";}}s:31:"nhkey/yii2-activerecord-history";a:3:{s:4:"name";s:31:"nhkey/yii2-activerecord-history";s:7:"version";s:7:"1.1.2.1";s:5:"alias";a:1:{s:10:"@nhkey/arh";s:80:"/Users/apple/Google Drive/htdocs/work/vendor/nhkey/yii2-activerecord-history/src";}}s:16:"yii2mod/yii2-pie";a:3:{s:4:"name";s:16:"yii2mod/yii2-pie";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:12:"@yii2mod/pie";s:61:"/Users/apple/Google Drive/htdocs/work/vendor/yii2mod/yii2-pie";}}s:21:"yii2mod/yii2-c3-chart";a:3:{s:4:"name";s:21:"yii2mod/yii2-c3-chart";s:7:"version";s:7:"0.2.0.0";s:5:"alias";a:1:{s:17:"@yii2mod/c3/chart";s:66:"/Users/apple/Google Drive/htdocs/work/vendor/yii2mod/yii2-c3-chart";}}s:28:"vakorovin/yii2-jqplot-widget";a:3:{s:4:"name";s:28:"vakorovin/yii2-jqplot-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:29:"@vakorovin/yii2_jqplot_widget";s:73:"/Users/apple/Google Drive/htdocs/work/vendor/vakorovin/yii2-jqplot-widget";}}s:20:"deesoft/yii2-angular";a:4:{s:4:"name";s:20:"deesoft/yii2-angular";s:7:"version";s:7:"1.3.0.0";s:5:"alias";a:1:{s:12:"@dee/angular";s:65:"/Users/apple/Google Drive/htdocs/work/vendor/deesoft/yii2-angular";}s:9:"bootstrap";s:21:"dee\angular\Bootstrap";}s:20:"kartik-v/yii2-export";a:3:{s:4:"name";s:20:"kartik-v/yii2-export";s:7:"version";s:7:"1.2.2.0";s:5:"alias";a:1:{s:14:"@kartik/export";s:65:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-export";}}s:24:"kartik-v/yii2-date-range";a:3:{s:4:"name";s:24:"kartik-v/yii2-date-range";s:7:"version";s:7:"1.6.5.0";s:5:"alias";a:1:{s:17:"@kartik/daterange";s:69:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-date-range";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/grid";s:63:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-grid";}}s:31:"schallschlucker/yii2-simple-cms";a:4:{s:4:"name";s:31:"schallschlucker/yii2-simple-cms";s:7:"version";s:7:"0.2.4.2";s:5:"alias";a:1:{s:26:"@schallschlucker/simplecms";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/schallschlucker/yii2-simple-cms";}s:9:"bootstrap";s:35:"schallschlucker\simplecms\Bootstrap";}s:26:"yiisoft/yii2-elasticsearch";a:3:{s:4:"name";s:26:"yiisoft/yii2-elasticsearch";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:18:"@yii/elasticsearch";s:71:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-elasticsearch";}}s:31:"nirvana-msu/yii2-iframe-resizer";a:3:{s:4:"name";s:31:"nirvana-msu/yii2-iframe-resizer";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:22:"@nirvana/iframeresizer";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/nirvana-msu/yii2-iframe-resizer";}}s:29:"thiagotalma/yii2-fullcalendar";a:3:{s:4:"name";s:29:"thiagotalma/yii2-fullcalendar";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:6:"@talma";s:74:"/Users/apple/Google Drive/htdocs/work/vendor/thiagotalma/yii2-fullcalendar";}}s:26:"2amigos/yii2-disqus-widget";a:3:{s:4:"name";s:26:"2amigos/yii2-disqus-widget";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:17:"@dosamigos/disqus";s:75:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-disqus-widget/src";}}s:29:"himiklab/yii2-colorbox-widget";a:3:{s:4:"name";s:29:"himiklab/yii2-colorbox-widget";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:18:"@himiklab/colorbox";s:74:"/Users/apple/Google Drive/htdocs/work/vendor/himiklab/yii2-colorbox-widget";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:12:"@kartik/file";s:75:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-fileinput";}}s:31:"kartik-v/yii2-widget-rangeinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-rangeinput";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/range";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-rangeinput";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:14:"@kartik/rating";s:72:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-rating";}}s:28:"kartik-v/yii2-widget-select2";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-select2";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:15:"@kartik/select2";s:73:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-select2";}}s:32:"kartik-v/yii2-widget-switchinput";a:3:{s:4:"name";s:32:"kartik-v/yii2-widget-switchinput";s:7:"version";s:7:"1.3.0.0";s:5:"alias";a:1:{s:19:"@kartik/switchinput";s:77:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-switchinput";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:12:"@kartik/time";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-timepicker";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:7:"1.2.0.0";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:75:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-touchspin";}}s:19:"kartik-v/yii2-icons";a:3:{s:4:"name";s:19:"kartik-v/yii2-icons";s:7:"version";s:7:"1.4.0.0";s:5:"alias";a:1:{s:13:"@kartik/icons";s:64:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-icons";}}s:21:"kartik-v/yii2-helpers";a:3:{s:4:"name";s:21:"kartik-v/yii2-helpers";s:7:"version";s:7:"1.3.3.0";s:5:"alias";a:1:{s:15:"@kartik/helpers";s:66:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-helpers";}}s:25:"kartik-v/yii2-datecontrol";a:3:{s:4:"name";s:25:"kartik-v/yii2-datecontrol";s:7:"version";s:7:"1.9.3.0";s:5:"alias";a:1:{s:19:"@kartik/datecontrol";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-datecontrol";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:7:"1.4.5.0";s:5:"alias";a:1:{s:12:"@kartik/form";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-activeform";}}s:23:"yiisoft/yii2-authclient";a:3:{s:4:"name";s:23:"yiisoft/yii2-authclient";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:15:"@yii/authclient";s:68:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-authclient";}}s:25:"kartik-v/yii2-detail-view";a:3:{s:4:"name";s:25:"kartik-v/yii2-detail-view";s:7:"version";s:7:"1.7.4.0";s:5:"alias";a:1:{s:14:"@kartik/detail";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-detail-view";}}s:24:"wbraganca/yii2-tagsinput";a:3:{s:4:"name";s:24:"wbraganca/yii2-tagsinput";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:20:"@wbraganca/tagsinput";s:73:"/Users/apple/Google Drive/htdocs/work/vendor/wbraganca/yii2-tagsinput/src";}}s:22:"machour/yii2-sparkline";a:3:{s:4:"name";s:22:"machour/yii2-sparkline";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:18:"@machour/sparkline";s:67:"/Users/apple/Google Drive/htdocs/work/vendor/machour/yii2-sparkline";}}s:30:"kolyunya/yii2-map-input-widget";a:3:{s:4:"name";s:30:"kolyunya/yii2-map-input-widget";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:14:"@kolyunya/yii2";s:83:"/Users/apple/Google Drive/htdocs/work/vendor/kolyunya/yii2-map-input-widget/sources";}}s:26:"2amigos/yii2-qrcode-helper";a:3:{s:4:"name";s:26:"2amigos/yii2-qrcode-helper";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:17:"@dosamigos/qrcode";s:75:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-qrcode-helper/src";}}s:30:"2amigos/yii2-leaflet-extension";a:3:{s:4:"name";s:30:"2amigos/yii2-leaflet-extension";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:18:"@dosamigos/leaflet";s:79:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-leaflet-extension/src";}}s:21:"yii2assets/yii2-pdfjs";a:3:{s:4:"name";s:21:"yii2assets/yii2-pdfjs";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:17:"@yii2assets/pdfjs";s:66:"/Users/apple/Google Drive/htdocs/work/vendor/yii2assets/yii2-pdfjs";}}s:32:"2amigos/yii2-multi-select-widget";a:3:{s:4:"name";s:32:"2amigos/yii2-multi-select-widget";s:7:"version";s:7:"0.1.1.0";s:5:"alias";a:1:{s:22:"@dosamigos/multiselect";s:77:"/Users/apple/Google Drive/htdocs/work/vendor/2amigos/yii2-multi-select-widget";}}s:18:"mdmsoft/yii2-admin";a:3:{s:4:"name";s:18:"mdmsoft/yii2-admin";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@mdm/admin";s:63:"/Users/apple/Google Drive/htdocs/work/vendor/mdmsoft/yii2-admin";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:69:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-swiftmailer";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:8:"@yii/jui";s:61:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-jui";}}s:31:"philippfrenzel/yii2fullcalendar";a:3:{s:4:"name";s:31:"philippfrenzel/yii2fullcalendar";s:7:"version";s:7:"3.0.3.0";s:5:"alias";a:1:{s:17:"@yii2fullcalendar";s:76:"/Users/apple/Google Drive/htdocs/work/vendor/philippfrenzel/yii2fullcalendar";}}s:34:"miloschuman/yii2-highcharts-widget";a:3:{s:4:"name";s:34:"miloschuman/yii2-highcharts-widget";s:7:"version";s:7:"5.0.2.0";s:5:"alias";a:1:{s:23:"@miloschuman/highcharts";s:83:"/Users/apple/Google Drive/htdocs/work/vendor/miloschuman/yii2-highcharts-widget/src";}}s:18:"kartik-v/yii2-mpdf";a:3:{s:4:"name";s:18:"kartik-v/yii2-mpdf";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:12:"@kartik/mpdf";s:63:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-mpdf";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:67:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-bootstrap";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.8.7.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-krajee-base";}}s:23:"kartik-v/yii2-popover-x";a:3:{s:4:"name";s:23:"kartik-v/yii2-popover-x";s:7:"version";s:7:"1.3.3.0";s:5:"alias";a:1:{s:15:"@kartik/popover";s:68:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-popover-x";}}s:22:"kartik-v/yii2-editable";a:3:{s:4:"name";s:22:"kartik-v/yii2-editable";s:7:"version";s:7:"1.7.5.0";s:5:"alias";a:1:{s:16:"@kartik/editable";s:67:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-editable";}}s:14:"conquer/oauth2";a:3:{s:4:"name";s:14:"conquer/oauth2";s:7:"version";s:7:"1.5.3.0";s:5:"alias";a:1:{s:15:"@conquer/oauth2";s:59:"/Users/apple/Google Drive/htdocs/work/vendor/conquer/oauth2";}}s:24:"rmrevin/yii2-fontawesome";a:3:{s:4:"name";s:24:"rmrevin/yii2-fontawesome";s:7:"version";s:8:"2.17.1.0";s:5:"alias";a:1:{s:24:"@rmrevin/yii/fontawesome";s:69:"/Users/apple/Google Drive/htdocs/work/vendor/rmrevin/yii2-fontawesome";}}s:25:"dmstr/yii2-adminlte-asset";a:3:{s:4:"name";s:25:"dmstr/yii2-adminlte-asset";s:7:"version";s:7:"2.3.4.0";s:5:"alias";a:1:{s:6:"@dmstr";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/dmstr/yii2-adminlte-asset";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:9:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:120:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:7:"referer";s:48:"http://localhost/kpi/kpi-group/public-dashboard/";s:15:"accept-encoding";s:23:"gzip, deflate, sdch, br";s:15:"accept-language";s:23:"en-US,en;q=0.8,th;q=0.6";s:6:"cookie";s:2360:"HstCfa3280813=1473869959407; kpi.scope=00e45614987e5187b92d648fccd1a81925717e2a5495d270f4c7a09b5fe005bba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22kpi.scope%22%3Bi%3A1%3BN%3B%7D; kpi.region=02fc2e49df7da5ba9e30a0e5755a472615ec4a53c578a772e147865124c4c901a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22kpi.region%22%3Bi%3A1%3BN%3B%7D; kpi.province=1922cca8ce71a239d379311ae191eed7d4b4b92bc53772491841d7bd217c32f0a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22kpi.province%22%3Bi%3A1%3BN%3B%7D; kpi.district=ee396f267d3f01e033b81d6b39bbed4c5ac3d8d69c3d59fa8bee8baddbec5e91a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22kpi.district%22%3Bi%3A1%3BN%3B%7D; kpi.subdistrict=b08320190bfc5640702d8ea8628e38f9c52ba2f1c7586258f3eacc949dd4d8bfa%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22kpi.subdistrict%22%3Bi%3A1%3BN%3B%7D; kpi.hospcode=762d87d34d77976554c20a70fea5d38d6449eb4f5f6c75b29d6bdbc75863c2f4a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22kpi.hospcode%22%3Bi%3A1%3BN%3B%7D; HstCmu3280813=1482152895501; HstCla3280813=1484497350010; HstPn3280813=9; HstPt3280813=34; HstCnv3280813=5; HstCns3280813=6; _csrf=b917f6d6d12c522174ec692af32822fd08b17863817bd1f9bd0b5d62c00beda2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VxeGJPRKHrsgSvInBdjnAUTIGRzr-sfm%22%3B%7D; KpiScope=3bbe6668767e648138e674c0cefe98d9ce25b49ae64b9051816b1e02b7b091e5a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22KpiScope%22%3Bi%3A1%3Bs%3A1%3A%221%22%3B%7D; KpiRegion=f8b917f40cf0520eb4b02b795057fcc571516a7117b7d5ed93ef22624f58f496a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22KpiRegion%22%3Bi%3A1%3Bs%3A2%3A%2206%22%3B%7D; KpiProvince=9bbe2ccb61d1a8c6f586ca0db2bac268ec6624391cb1537a877c0c06690c2a43a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22KpiProvince%22%3Bi%3A1%3Bs%3A2%3A%2227%22%3B%7D; KpiDistrict=7278f39e076364c78d80b389929041362487c28e26b702eea264ae1aa1c21a38a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22KpiDistrict%22%3Bi%3A1%3Bs%3A4%3A%222701%22%3B%7D; KpiSubdistrict=37cc5a431de7ecbb66bfbc2df0d0826d6b797a9348bef437b95c52ef4c616b6fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22KpiSubdistrict%22%3Bi%3A1%3Bs%3A0%3A%22%22%3B%7D; KpiHospcode=d594251afd6ecdb2a479ec2624de904af99e813f39e96aff61e3b30995c6b1a1a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22KpiHospcode%22%3Bi%3A1%3Bs%3A5%3A%2200017%22%3B%7D; PHPSESSID=0hhddjl7qkpnlu7ohacnveq2s2; _identity=8c8346631ea980ad28e3734c1e43b2679c493d0d5afa8ef6c66ec2c051b63d5ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A49%3A%22%5B2661%2C%22aJjxP-0SgdcrioUpfPNy36ceyimy6Pu7%22%2C2592000%5D%22%3B%7D";}s:15:"responseHeaders";a:6:{s:12:"X-Powered-By";s:9:"PHP/5.6.8";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:10:"Set-Cookie";s:283:"_identity=8c8346631ea980ad28e3734c1e43b2679c493d0d5afa8ef6c66ec2c051b63d5ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A49%3A%22%5B2661%2C%22aJjxP-0SgdcrioUpfPNy36ceyimy6Pu7%22%2C2592000%5D%22%3B%7D; expires=Fri, 03-Mar-2017 06:19:51 GMT; Max-Age=2592000; path=/; httponly";}s:5:"route";s:9:"kpi/index";s:6:"action";s:44:"kpi\controllers\KpiController::actionIndex()";s:12:"actionParams";a:11:{i:0;s:1:"1";i:1;s:2:"06";i:2;s:1:"0";i:3;s:1:"1";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"1";i:7;s:1:"1";i:8;s:1:"1";i:9;s:1:"1";i:10;s:1:"4";}s:11:"requestBody";a:0:{}s:6:"SERVER";a:38:{s:18:"REDIRECT_UNIQUE_ID";s:24:"WJF@B8CoAUYAAHjL0XMAAAAF";s:15:"REDIRECT_STATUS";s:3:"200";s:9:"UNIQUE_ID";s:24:"WJF@B8CoAUYAAHjL0XMAAAAF";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:120:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:12:"HTTP_REFERER";s:48:"http://localhost/kpi/kpi-group/public-dashboard/";s:20:"HTTP_ACCEPT_ENCODING";s:23:"gzip, deflate, sdch, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:23:"en-US,en;q=0.8,th;q=0.6";s:11:"HTTP_COOKIE";s:2360:"HstCfa3280813=1473869959407; kpi.scope=00e45614987e5187b92d648fccd1a81925717e2a5495d270f4c7a09b5fe005bba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22kpi.scope%22%3Bi%3A1%3BN%3B%7D; kpi.region=02fc2e49df7da5ba9e30a0e5755a472615ec4a53c578a772e147865124c4c901a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22kpi.region%22%3Bi%3A1%3BN%3B%7D; kpi.province=1922cca8ce71a239d379311ae191eed7d4b4b92bc53772491841d7bd217c32f0a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22kpi.province%22%3Bi%3A1%3BN%3B%7D; kpi.district=ee396f267d3f01e033b81d6b39bbed4c5ac3d8d69c3d59fa8bee8baddbec5e91a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22kpi.district%22%3Bi%3A1%3BN%3B%7D; kpi.subdistrict=b08320190bfc5640702d8ea8628e38f9c52ba2f1c7586258f3eacc949dd4d8bfa%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22kpi.subdistrict%22%3Bi%3A1%3BN%3B%7D; kpi.hospcode=762d87d34d77976554c20a70fea5d38d6449eb4f5f6c75b29d6bdbc75863c2f4a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22kpi.hospcode%22%3Bi%3A1%3BN%3B%7D; HstCmu3280813=1482152895501; HstCla3280813=1484497350010; HstPn3280813=9; HstPt3280813=34; HstCnv3280813=5; HstCns3280813=6; _csrf=b917f6d6d12c522174ec692af32822fd08b17863817bd1f9bd0b5d62c00beda2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VxeGJPRKHrsgSvInBdjnAUTIGRzr-sfm%22%3B%7D; KpiScope=3bbe6668767e648138e674c0cefe98d9ce25b49ae64b9051816b1e02b7b091e5a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22KpiScope%22%3Bi%3A1%3Bs%3A1%3A%221%22%3B%7D; KpiRegion=f8b917f40cf0520eb4b02b795057fcc571516a7117b7d5ed93ef22624f58f496a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22KpiRegion%22%3Bi%3A1%3Bs%3A2%3A%2206%22%3B%7D; KpiProvince=9bbe2ccb61d1a8c6f586ca0db2bac268ec6624391cb1537a877c0c06690c2a43a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22KpiProvince%22%3Bi%3A1%3Bs%3A2%3A%2227%22%3B%7D; KpiDistrict=7278f39e076364c78d80b389929041362487c28e26b702eea264ae1aa1c21a38a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22KpiDistrict%22%3Bi%3A1%3Bs%3A4%3A%222701%22%3B%7D; KpiSubdistrict=37cc5a431de7ecbb66bfbc2df0d0826d6b797a9348bef437b95c52ef4c616b6fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22KpiSubdistrict%22%3Bi%3A1%3Bs%3A0%3A%22%22%3B%7D; KpiHospcode=d594251afd6ecdb2a479ec2624de904af99e813f39e96aff61e3b30995c6b1a1a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22KpiHospcode%22%3Bi%3A1%3Bs%3A5%3A%2200017%22%3B%7D; PHPSESSID=0hhddjl7qkpnlu7ohacnveq2s2; _identity=8c8346631ea980ad28e3734c1e43b2679c493d0d5afa8ef6c66ec2c051b63d5ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A49%3A%22%5B2661%2C%22aJjxP-0SgdcrioUpfPNy36ceyimy6Pu7%22%2C2592000%5D%22%3B%7D";s:4:"PATH";s:29:"/usr/bin:/bin:/usr/sbin:/sbin";s:17:"DYLD_LIBRARY_PATH";s:34:"/Applications/XAMPP/xamppfiles/lib";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:77:"Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.6.8 mod_perl/2.0.8-dev Perl/v5.16.3";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:58:"/Users/apple/Google Drive/htdocs/rest/application/api/www/";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:4:"/kpi";s:21:"CONTEXT_DOCUMENT_ROOT";s:46:"/Users/apple/Google Drive/htdocs/work/kpi/web/";s:12:"SERVER_ADMIN";s:15:"you@example.com";s:15:"SCRIPT_FILENAME";s:55:"/Users/apple/Google Drive/htdocs/work/kpi/web/index.php";s:11:"REMOTE_PORT";s:5:"61867";s:21:"REDIRECT_QUERY_STRING";s:16:"id=1&kpi_group=4";s:12:"REDIRECT_URL";s:15:"/kpi/kpi/index/";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:16:"id=1&kpi_group=4";s:11:"REQUEST_URI";s:32:"/kpi/kpi/index/?id=1&kpi_group=4";s:11:"SCRIPT_NAME";s:14:"/kpi/index.php";s:8:"PHP_SELF";s:14:"/kpi/index.php";s:18:"REQUEST_TIME_FLOAT";d:1485929991.473000049591064453125;s:12:"REQUEST_TIME";i:1485929991;}s:3:"GET";a:2:{s:2:"id";s:1:"1";s:9:"kpi_group";s:1:"4";}s:4:"POST";a:0:{}s:6:"COOKIE";a:22:{s:13:"HstCfa3280813";s:13:"1473869959407";s:9:"kpi_scope";s:96:"00e45614987e5187b92d648fccd1a81925717e2a5495d270f4c7a09b5fe005bba:2:{i:0;s:9:"kpi.scope";i:1;N;}";s:10:"kpi_region";s:98:"02fc2e49df7da5ba9e30a0e5755a472615ec4a53c578a772e147865124c4c901a:2:{i:0;s:10:"kpi.region";i:1;N;}";s:12:"kpi_province";s:100:"1922cca8ce71a239d379311ae191eed7d4b4b92bc53772491841d7bd217c32f0a:2:{i:0;s:12:"kpi.province";i:1;N;}";s:12:"kpi_district";s:100:"ee396f267d3f01e033b81d6b39bbed4c5ac3d8d69c3d59fa8bee8baddbec5e91a:2:{i:0;s:12:"kpi.district";i:1;N;}";s:15:"kpi_subdistrict";s:103:"b08320190bfc5640702d8ea8628e38f9c52ba2f1c7586258f3eacc949dd4d8bfa:2:{i:0;s:15:"kpi.subdistrict";i:1;N;}";s:12:"kpi_hospcode";s:100:"762d87d34d77976554c20a70fea5d38d6449eb4f5f6c75b29d6bdbc75863c2f4a:2:{i:0;s:12:"kpi.hospcode";i:1;N;}";s:13:"HstCmu3280813";s:13:"1482152895501";s:13:"HstCla3280813";s:13:"1484497350010";s:12:"HstPn3280813";s:1:"9";s:12:"HstPt3280813";s:2:"34";s:13:"HstCnv3280813";s:1:"5";s:13:"HstCns3280813";s:1:"6";s:5:"_csrf";s:130:"b917f6d6d12c522174ec692af32822fd08b17863817bd1f9bd0b5d62c00beda2a:2:{i:0;s:5:"_csrf";i:1;s:32:"VxeGJPRKHrsgSvInBdjnAUTIGRzr-sfm";}";s:8:"KpiScope";s:101:"3bbe6668767e648138e674c0cefe98d9ce25b49ae64b9051816b1e02b7b091e5a:2:{i:0;s:8:"KpiScope";i:1;s:1:"1";}";s:9:"KpiRegion";s:103:"f8b917f40cf0520eb4b02b795057fcc571516a7117b7d5ed93ef22624f58f496a:2:{i:0;s:9:"KpiRegion";i:1;s:2:"06";}";s:11:"KpiProvince";s:106:"9bbe2ccb61d1a8c6f586ca0db2bac268ec6624391cb1537a877c0c06690c2a43a:2:{i:0;s:11:"KpiProvince";i:1;s:2:"27";}";s:11:"KpiDistrict";s:108:"7278f39e076364c78d80b389929041362487c28e26b702eea264ae1aa1c21a38a:2:{i:0;s:11:"KpiDistrict";i:1;s:4:"2701";}";s:14:"KpiSubdistrict";s:107:"37cc5a431de7ecbb66bfbc2df0d0826d6b797a9348bef437b95c52ef4c616b6fa:2:{i:0;s:14:"KpiSubdistrict";i:1;s:0:"";}";s:11:"KpiHospcode";s:109:"d594251afd6ecdb2a479ec2624de904af99e813f39e96aff61e3b30995c6b1a1a:2:{i:0;s:11:"KpiHospcode";i:1;s:5:"00017";}";s:9:"PHPSESSID";s:26:"0hhddjl7qkpnlu7ohacnveq2s2";s:9:"_identity";s:151:"8c8346631ea980ad28e3734c1e43b2679c493d0d5afa8ef6c66ec2c051b63d5ba:2:{i:0;s:9:"_identity";i:1;s:49:"[2661,"aJjxP-0SgdcrioUpfPNy36ceyimy6Pu7",2592000]";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:2:{s:7:"__flash";a:0:{}s:4:"__id";i:2661;}}s:3:"log";a:1:{s:8:"messages";a:35:{i:0;a:5:{i:0;s:59:"Opening DB connection: mysql:host=localhost;dbname=workbase";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.5153300762176513671875;i:4;a:0:{}}i:3;a:5:{i:0;s:92:"SELECT `data` FROM `session` WHERE `expire`>1485929991 AND `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5159320831298828125;i:4;a:0:{}}i:6;a:5:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1485929991.5162351131439208984375;i:4;a:0:{}}i:7;a:5:{i:0;s:36:"SELECT * FROM `user` WHERE `id`=2661";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.522304058074951171875;i:4;a:0:{}}i:10;a:5:{i:0;s:54:"Opening DB connection: mysql:host=localhost;dbname=kpi";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.535315036773681640625;i:4;a:0:{}}i:13;a:5:{i:0;s:39:"SELECT * FROM `kpi_list` WHERE `id`='1'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.535830974578857421875;i:4;a:0:{}}i:14;a:5:{i:0;s:33:"SHOW FULL COLUMNS FROM `kpi_list`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5371520519256591796875;i:4;a:0:{}}i:15;a:5:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'kpi_list' AND kcu.table_name = 'kpi_list'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.542294979095458984375;i:4;a:0:{}}i:16;a:5:{i:0;s:3717:"
+   SELECT s.id, p.zoneid AS provid,
+CONCAT("เขตฯ ",p.zoneid) AS provname,
+SUM(s.kpi_a_value) kpi_a_value,
+SUM(s.kpi_a_value_q1) kpi_a_value_q1,
+SUM(s.kpi_b_value) kpi_b_value,
+SUM(s.kpi_c_value) kpi_c_value,
+SUM(s.kpi_d_value) kpi_d_value,
+
+
+IF(p.zoneid = "01", l.result_r01_q1, IF(p.zoneid = "02", l.result_r02_q1, IF(p.zoneid = "03", l.result_r03_q1, IF(p.zoneid = "04", l.result_r04_q1, IF(p.zoneid = "05", l.result_r05_q1,
+IF(p.zoneid = "06", l.result_r06_q1, IF(p.zoneid = "07", l.result_r07_q1, IF(p.zoneid = "08", l.result_r08_q1, IF(p.zoneid = "09", l.result_r09_q1, IF(p.zoneid = "10", l.result_r10_q1,
+IF(p.zoneid = "11", l.result_r11_q1, IF(p.zoneid = "12", l.result_r12_q1, IF(p.zoneid = "13", l.result_r13_q1, 0))))))))))))) AS kpi_result_q1,
+
+IF(p.zoneid = "01", l.result_r01_q2, IF(p.zoneid = "02", l.result_r02_q2, IF(p.zoneid = "03", l.result_r03_q2, IF(p.zoneid = "04", l.result_r04_q2, IF(p.zoneid = "05", l.result_r05_q2,
+IF(p.zoneid = "06", l.result_r06_q2, IF(p.zoneid = "07", l.result_r07_q2, IF(p.zoneid = "08", l.result_r08_q2, IF(p.zoneid = "09", l.result_r09_q2, IF(p.zoneid = "10", l.result_r10_q2,
+IF(p.zoneid = "11", l.result_r11_q2, IF(p.zoneid = "12", l.result_r12_q2, IF(p.zoneid = "13", l.result_r13_q2, 0))))))))))))) AS kpi_result_q2,
+
+IF(p.zoneid = "01", l.result_r01_q3, IF(p.zoneid = "02", l.result_r02_q3, IF(p.zoneid = "03", l.result_r03_q3, IF(p.zoneid = "04", l.result_r04_q3, IF(p.zoneid = "05", l.result_r05_q3,
+IF(p.zoneid = "06", l.result_r06_q3, IF(p.zoneid = "07", l.result_r07_q3, IF(p.zoneid = "08", l.result_r08_q3, IF(p.zoneid = "09", l.result_r09_q3, IF(p.zoneid = "10", l.result_r10_q3,
+IF(p.zoneid = "11", l.result_r11_q3, IF(p.zoneid = "12", l.result_r12_q3, IF(p.zoneid = "13", l.result_r13_q3, 0))))))))))))) AS kpi_result_q3,
+
+IF(p.zoneid = "01", l.result_r01_q4, IF(p.zoneid = "02", l.result_r02_q4, IF(p.zoneid = "03", l.result_r03_q4, IF(p.zoneid = "04", l.result_r04_q4, IF(p.zoneid = "05", l.result_r05_q4,
+IF(p.zoneid = "06", l.result_r06_q4, IF(p.zoneid = "07", l.result_r07_q4, IF(p.zoneid = "08", l.result_r08_q4, IF(p.zoneid = "09", l.result_r09_q4, IF(p.zoneid = "10", l.result_r10_q4,
+IF(p.zoneid = "11", l.result_r11_q4, IF(p.zoneid = "12", l.result_r12_q4, IF(p.zoneid = "13", l.result_r13_q4, 0))))))))))))) AS kpi_result_q4,
+
+l.result,
+IF(p.zoneid = "01", l.result_r01, IF(p.zoneid = "02", l.result_r02, IF(p.zoneid = "03", l.result_r03, IF(p.zoneid = "04", l.result_r04, IF(p.zoneid = "05", l.result_r05,
+IF(p.zoneid = "06", l.result_r06, IF(p.zoneid = "07", l.result_r07, IF(p.zoneid = "08", l.result_r08, IF(p.zoneid = "09", l.result_r09, IF(p.zoneid = "10", l.result_r10,
+IF(p.zoneid = "11", l.result_r11, IF(p.zoneid = "12", l.result_r12, IF(p.zoneid = "13", l.result_r13, 0))))))))))))) AS kpi_result,
+
+
+
+GROUP_CONCAT(s.attach_files) attach_files,
+GROUP_CONCAT(s.qwin_q1) qwin_q1,
+GROUP_CONCAT(s.qwin_q2) qwin_q2,
+GROUP_CONCAT(s.qwin_q3) qwin_q3,
+GROUP_CONCAT(s.qwin_q4) qwin_q4,
+GROUP_CONCAT(s.content_file) content_file,
+GROUP_CONCAT(s.rep_q1) rep_q1,
+GROUP_CONCAT(s.rep_q2) rep_q2,
+GROUP_CONCAT(s.rep_q3) rep_q3,
+GROUP_CONCAT(s.rep_q4) rep_q4,
+
+
+MAX(s.last_update) AS last_update
+    FROM co_province p
+    LEFT JOIN
+    (SELECT s.id, s.kpi_id,
+s.kpi_provcode,
+s.kpi_a_value,
+s.kpi_a_value_q1,
+s.kpi_b_value,
+s.kpi_c_value,
+s.kpi_d_value,
+s.kpi_result,
+s.kpi_result_q1,
+s.kpi_result_q2,
+s.kpi_result_q3,
+s.kpi_result_q4,
+s.attach_files, s.qwin_q1, s.qwin_q2, s.qwin_q3, s.qwin_q4, s.content_file, s.rep_q1, s.rep_q2, s.rep_q3, s.rep_q4,
+s.last_update
+    FROM kpi_sum_region s
+    WHERE s.kpi_id = 1
+    ) s ON p.provid = s.kpi_provcode
+JOIN kpi_list l ON l.id = 1
+
+    GROUP BY p.zoneid
+    ORDER BY p.zoneid
+
+            ";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5431230068206787109375;i:4;a:0:{}}i:17;a:5:{i:0;s:685:"SELECT AVG(s.kpi_a_value) as avg_a,
+            AVG(s.kpi_c_value) as avg_c,
+            AVG(s.kpi_d_value) as avg_d,
+                l.*,
+                l.result as page_result,
+                SUM(s.kpi_a_value) kpi_a_value,
+                SUM(s.kpi_b_value) kpi_b_value,
+                SUM(s.kpi_c_value) kpi_c_value,
+                SUM(s.kpi_d_value) kpi_d_value,
+                SUM(s.kpi_e_value) kpi_e_value,
+                SUM(s.kpi_f_value) kpi_f_value,
+                SUM(s.kpi_result) kpi_result,
+                AVG(s.kpi_result) avg_result
+            FROM kpi_sum_region s RIGHT JOIN kpi_list l ON s.kpi_id = l.id
+
+            WHERE l.id = 1 GROUP BY s.kpi_provcode";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.544166088104248046875;i:4;a:0:{}}i:18;a:5:{i:0;s:39:"SELECT * FROM `kpi_list` WHERE `id`='1'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.55859088897705078125;i:4;a:0:{}}i:19;a:5:{i:0;s:115:"SELECT s.kpi_provcode,
+	s.kpi_result AS kpi_result
+FROM kpi_sum_region s
+WHERE s.kpi_id = 1
+GROUP BY s.kpi_provcode";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5618140697479248046875;i:4;a:0:{}}i:20;a:5:{i:0;s:87:"SELECT *
+FROM comments
+WHERE comments.content_id = 1
+ORDER BY comments.comment_date ASC";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.562632083892822265625;i:4;a:0:{}}i:21;a:5:{i:0;s:33:"SHOW FULL COLUMNS FROM `comments`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5636980533599853515625;i:4;a:0:{}}i:24;a:5:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'comments' AND kcu.table_name = 'comments'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5665199756622314453125;i:4;a:0:{}}i:27;a:5:{i:0;s:141:"The message file for category 'kvgrid' does not exist: /Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-grid/messages/th/kvgrid.php";i:1;i:1;i:2;s:39:"yii\i18n\PhpMessageSource::loadMessages";i:3;d:1485929991.597814083099365234375;i:4;a:0:{}}i:28;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.908876895904541015625;i:4;a:0:{}}i:31;a:5:{i:0;s:113:"The message file for category 'app' does not exist: /Users/apple/Google Drive/htdocs/work/kpi/messages/th/app.php";i:1;i:1;i:2;s:39:"yii\i18n\PhpMessageSource::loadMessages";i:3;d:1485929991.91530609130859375;i:4;a:0:{}}i:32;a:5:{i:0;s:22:"SELECT * FROM `config`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.925076961517333984375;i:4;a:0:{}}i:35;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9273660182952880859375;i:4;a:0:{}}i:38;a:5:{i:0;s:50:"SELECT * FROM `c_hospital` WHERE `hoscode`='00002'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.929914951324462890625;i:4;a:0:{}}i:41;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `report_scope`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.93157291412353515625;i:4;a:0:{}}i:44;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'report_scope' AND kcu.table_name = 'report_scope'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.93461894989013671875;i:4;a:0:{}}i:47;a:5:{i:0;s:132:"SELECT `ampurcodefull`, `ampurname` FROM `c_district` WHERE (`changwatcode`='27') AND (ampurname NOT LIKE "*%") ORDER BY `ampurname`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.936008930206298828125;i:4;a:0:{}}i:48;a:5:{i:0;s:138:"SELECT `tamboncodefull`, `tambonname` FROM `c_subdistrict` WHERE (`ampurcode`='2701') AND (tambonname NOT LIKE "*%") ORDER BY `tambonname`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9386570453643798828125;i:4;a:0:{}}i:49;a:5:{i:0;s:79:"SELECT `changwatcode`, `changwatname` FROM `c_province` ORDER BY `changwatname`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9524600505828857421875;i:4;a:0:{}}i:50;a:5:{i:0;s:125:"SELECT hoscode, CONCAT(hoscode,' ',hosname) AS hosname FROM c_hospital WHERE provcode='27' AND distcode='01' ORDER BY hoscode";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.95777988433837890625;i:4;a:0:{}}i:51;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=health_explorer";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.9610440731048583984375;i:4;a:0:{}}i:54;a:5:{i:0;s:96:"SELECT * FROM `co_mastercup` WHERE (`province_id`='2700') AND (hospcode5 = hsub) ORDER BY `hsub`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9615790843963623046875;i:4;a:0:{}}i:55;a:5:{i:0;s:628:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level IN ('ประเทศ', 'สป.', 'กรม')
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9666268825531005859375;i:4;a:0:{}}i:58;a:5:{i:0;s:592:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "เขต"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.971414089202880859375;i:4;a:0:{}}i:61;a:5:{i:0;s:604:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "จังหวัด"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9742600917816162109375;i:4;a:0:{}}i:64;a:5:{i:0;s:341:"INSERT INTO `request_log` (`app_id`, `route`, `params`, `datetime`, `user_id`, `ip`, `user_agent`) VALUES ('app-kpi', 'kpi/index', 'array (\n  \'id\' => \'1\',\n  \'kpi_group\' => \'4\',\n)', now(), 2661, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.9838569164276123046875;i:4;a:0:{}}i:67;a:5:{i:0;s:66:"SELECT `id` FROM `session` WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9856469631195068359375;i:4;a:0:{}}i:70;a:5:{i:0;s:117:"UPDATE `session` SET `data`='__flash|a:0:{}__id|i:2661;', `expire`=1485931431 WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.986280918121337890625;i:4;a:0:{}}}}s:9:"profiling";a:3:{s:6:"memory";i:20796168;s:4:"time";d:0.5459458827972412109375;s:8:"messages";a:38:{i:1;a:5:{i:0;s:59:"Opening DB connection: mysql:host=localhost;dbname=workbase";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.51533794403076171875;i:4;a:0:{}}i:2;a:5:{i:0;s:59:"Opening DB connection: mysql:host=localhost;dbname=workbase";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.5158360004425048828125;i:4;a:0:{}}i:4;a:5:{i:0;s:92:"SELECT `data` FROM `session` WHERE `expire`>1485929991 AND `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5159580707550048828125;i:4;a:0:{}}i:5;a:5:{i:0;s:92:"SELECT `data` FROM `session` WHERE `expire`>1485929991 AND `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5162050724029541015625;i:4;a:0:{}}i:8;a:5:{i:0;s:36:"SELECT * FROM `user` WHERE `id`=2661";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.522324085235595703125;i:4;a:0:{}}i:9;a:5:{i:0;s:36:"SELECT * FROM `user` WHERE `id`=2661";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5228950977325439453125;i:4;a:0:{}}i:11;a:5:{i:0;s:54:"Opening DB connection: mysql:host=localhost;dbname=kpi";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.5353209972381591796875;i:4;a:0:{}}i:12;a:5:{i:0;s:54:"Opening DB connection: mysql:host=localhost;dbname=kpi";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.5357730388641357421875;i:4;a:0:{}}i:22;a:5:{i:0;s:33:"SHOW FULL COLUMNS FROM `comments`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5637209415435791015625;i:4;a:0:{}}i:23;a:5:{i:0;s:33:"SHOW FULL COLUMNS FROM `comments`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5662090778350830078125;i:4;a:0:{}}i:25;a:5:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'comments' AND kcu.table_name = 'comments'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5665409564971923828125;i:4;a:0:{}}i:26;a:5:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'comments' AND kcu.table_name = 'comments'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5668489933013916015625;i:4;a:0:{}}i:29;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9089009761810302734375;i:4;a:0:{}}i:30;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9098489284515380859375;i:4;a:0:{}}i:33;a:5:{i:0;s:22:"SELECT * FROM `config`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.925137042999267578125;i:4;a:0:{}}i:34;a:5:{i:0;s:22:"SELECT * FROM `config`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9259150028228759765625;i:4;a:0:{}}i:36;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9273869991302490234375;i:4;a:0:{}}i:37;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.92786502838134765625;i:4;a:0:{}}i:39;a:5:{i:0;s:50:"SELECT * FROM `c_hospital` WHERE `hoscode`='00002'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.929935932159423828125;i:4;a:0:{}}i:40;a:5:{i:0;s:50:"SELECT * FROM `c_hospital` WHERE `hoscode`='00002'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.930303096771240234375;i:4;a:0:{}}i:42;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `report_scope`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9315950870513916015625;i:4;a:0:{}}i:43;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `report_scope`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9341890811920166015625;i:4;a:0:{}}i:45;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'report_scope' AND kcu.table_name = 'report_scope'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9346408843994140625;i:4;a:0:{}}i:46;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'report_scope' AND kcu.table_name = 'report_scope'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9350140094757080078125;i:4;a:0:{}}i:52;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=health_explorer";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.96104907989501953125;i:4;a:0:{}}i:53;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=health_explorer";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1485929991.961554050445556640625;i:4;a:0:{}}i:56;a:5:{i:0;s:628:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level IN ('ประเทศ', 'สป.', 'กรม')
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.966723918914794921875;i:4;a:0:{}}i:57;a:5:{i:0;s:628:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level IN ('ประเทศ', 'สป.', 'กรม')
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.970386028289794921875;i:4;a:0:{}}i:59;a:5:{i:0;s:592:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "เขต"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9714949131011962890625;i:4;a:0:{}}i:60;a:5:{i:0;s:592:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "เขต"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.973072052001953125;i:4;a:0:{}}i:62;a:5:{i:0;s:604:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "จังหวัด"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9743499755859375;i:4;a:0:{}}i:63;a:5:{i:0;s:604:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "จังหวัด"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9767310619354248046875;i:4;a:0:{}}i:65;a:5:{i:0;s:341:"INSERT INTO `request_log` (`app_id`, `route`, `params`, `datetime`, `user_id`, `ip`, `user_agent`) VALUES ('app-kpi', 'kpi/index', 'array (\n  \'id\' => \'1\',\n  \'kpi_group\' => \'4\',\n)', now(), 2661, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.9838879108428955078125;i:4;a:0:{}}i:66;a:5:{i:0;s:341:"INSERT INTO `request_log` (`app_id`, `route`, `params`, `datetime`, `user_id`, `ip`, `user_agent`) VALUES ('app-kpi', 'kpi/index', 'array (\n  \'id\' => \'1\',\n  \'kpi_group\' => \'4\',\n)', now(), 2661, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.984159946441650390625;i:4;a:0:{}}i:68;a:5:{i:0;s:66:"SELECT `id` FROM `session` WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9856688976287841796875;i:4;a:0:{}}i:69;a:5:{i:0;s:66:"SELECT `id` FROM `session` WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.98591899871826171875;i:4;a:0:{}}i:71;a:5:{i:0;s:117:"UPDATE `session` SET `data`='__flash|a:0:{}__id|i:2661;', `expire`=1485931431 WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.9862959384918212890625;i:4;a:0:{}}i:72;a:5:{i:0;s:117:"UPDATE `session` SET `data`='__flash|a:0:{}__id|i:2661;', `expire`=1485931431 WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.986815929412841796875;i:4;a:0:{}}}}s:2:"db";a:1:{s:8:"messages";a:32:{i:4;a:5:{i:0;s:92:"SELECT `data` FROM `session` WHERE `expire`>1485929991 AND `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5159580707550048828125;i:4;a:0:{}}i:5;a:5:{i:0;s:92:"SELECT `data` FROM `session` WHERE `expire`>1485929991 AND `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5162050724029541015625;i:4;a:0:{}}i:8;a:5:{i:0;s:36:"SELECT * FROM `user` WHERE `id`=2661";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.522324085235595703125;i:4;a:0:{}}i:9;a:5:{i:0;s:36:"SELECT * FROM `user` WHERE `id`=2661";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5228950977325439453125;i:4;a:0:{}}i:22;a:5:{i:0;s:33:"SHOW FULL COLUMNS FROM `comments`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5637209415435791015625;i:4;a:0:{}}i:23;a:5:{i:0;s:33:"SHOW FULL COLUMNS FROM `comments`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5662090778350830078125;i:4;a:0:{}}i:25;a:5:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'comments' AND kcu.table_name = 'comments'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5665409564971923828125;i:4;a:0:{}}i:26;a:5:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'comments' AND kcu.table_name = 'comments'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.5668489933013916015625;i:4;a:0:{}}i:29;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9089009761810302734375;i:4;a:0:{}}i:30;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9098489284515380859375;i:4;a:0:{}}i:33;a:5:{i:0;s:22:"SELECT * FROM `config`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.925137042999267578125;i:4;a:0:{}}i:34;a:5:{i:0;s:22:"SELECT * FROM `config`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9259150028228759765625;i:4;a:0:{}}i:36;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9273869991302490234375;i:4;a:0:{}}i:37;a:5:{i:0;s:44:"SELECT * FROM `profile` WHERE `user_id`=2661";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.92786502838134765625;i:4;a:0:{}}i:39;a:5:{i:0;s:50:"SELECT * FROM `c_hospital` WHERE `hoscode`='00002'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.929935932159423828125;i:4;a:0:{}}i:40;a:5:{i:0;s:50:"SELECT * FROM `c_hospital` WHERE `hoscode`='00002'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.930303096771240234375;i:4;a:0:{}}i:42;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `report_scope`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9315950870513916015625;i:4;a:0:{}}i:43;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `report_scope`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9341890811920166015625;i:4;a:0:{}}i:45;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'report_scope' AND kcu.table_name = 'report_scope'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9346408843994140625;i:4;a:0:{}}i:46;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'report_scope' AND kcu.table_name = 'report_scope'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9350140094757080078125;i:4;a:0:{}}i:56;a:5:{i:0;s:628:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level IN ('ประเทศ', 'สป.', 'กรม')
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.966723918914794921875;i:4;a:0:{}}i:57;a:5:{i:0;s:628:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level IN ('ประเทศ', 'สป.', 'กรม')
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.970386028289794921875;i:4;a:0:{}}i:59;a:5:{i:0;s:592:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "เขต"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9714949131011962890625;i:4;a:0:{}}i:60;a:5:{i:0;s:592:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "เขต"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.973072052001953125;i:4;a:0:{}}i:62;a:5:{i:0;s:604:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "จังหวัด"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9743499755859375;i:4;a:0:{}}i:63;a:5:{i:0;s:604:"SELECT l.id,
+	COUNT(l.id) subitem_count,
+	l.kpi_level,
+	l.kpi_no,
+	l.title,
+	l.goal,
+	l.kpi_unit,
+	l.operator,
+	l.max_value,
+	l.tags,
+	l.4e,
+	l.pa,
+	l.bie,
+	l.hdc,
+	l.result,
+	l.result_r01,
+	l.result_r02,
+	l.result_r03,
+	l.result_r04,
+	l.result_r05,
+	l.result_r06,
+	l.result_r07,
+	l.result_r08,
+	l.result_r09,
+	l.result_r10,
+	l.result_r11,
+	l.result_r12,
+	l.result_r13,
+	c.parent_id
+FROM kpi_list l
+LEFT JOIN kpi_list AS c
+ON c.parent_id = l.id
+WHERE l.kpi_year = "2560"
+AND l.kpi_level = "จังหวัด"
+AND l.my_kpi = 1 AND l.parent_id = 0 AND l.my_kpi_group = 4
+GROUP BY l.id
+ORDER BY l.kpi_no";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9767310619354248046875;i:4;a:0:{}}i:65;a:5:{i:0;s:341:"INSERT INTO `request_log` (`app_id`, `route`, `params`, `datetime`, `user_id`, `ip`, `user_agent`) VALUES ('app-kpi', 'kpi/index', 'array (\n  \'id\' => \'1\',\n  \'kpi_group\' => \'4\',\n)', now(), 2661, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.9838879108428955078125;i:4;a:0:{}}i:66;a:5:{i:0;s:341:"INSERT INTO `request_log` (`app_id`, `route`, `params`, `datetime`, `user_id`, `ip`, `user_agent`) VALUES ('app-kpi', 'kpi/index', 'array (\n  \'id\' => \'1\',\n  \'kpi_group\' => \'4\',\n)', now(), 2661, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.984159946441650390625;i:4;a:0:{}}i:68;a:5:{i:0;s:66:"SELECT `id` FROM `session` WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.9856688976287841796875;i:4;a:0:{}}i:69;a:5:{i:0;s:66:"SELECT `id` FROM `session` WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1485929991.98591899871826171875;i:4;a:0:{}}i:71;a:5:{i:0;s:117:"UPDATE `session` SET `data`='__flash|a:0:{}__id|i:2661;', `expire`=1485931431 WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.9862959384918212890625;i:4;a:0:{}}i:72;a:5:{i:0;s:117:"UPDATE `session` SET `data`='__flash|a:0:{}__id|i:2661;', `expire`=1485931431 WHERE `id`='0hhddjl7qkpnlu7ohacnveq2s2'";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1485929991.986815929412841796875;i:4;a:0:{}}}}s:6:"assets";a:19:{s:79:"/kpi/themes/kingadmin/js/plugins/bootstrap-progressbar/bootstrap-progressbar.js";a:9:{s:10:"sourcePath";N;s:8:"basePath";N;s:7:"baseUrl";s:0:"";s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:2:"js";a:1:{i:0;s:78:"kpi/themes/kingadmin/js/plugins/bootstrap-progressbar/bootstrap-progressbar.js";}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:62:"/Users/apple/Google Drive/htdocs/work/vendor/bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/a2f64cd9";s:7:"baseUrl";s:20:"/kpi/assets/a2f64cd9";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:38:"miloschuman\highcharts\HighchartsAsset";a:9:{s:10:"sourcePath";s:90:"/Users/apple/Google Drive/htdocs/work/vendor/miloschuman/yii2-highcharts-widget/src/assets";s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/f6934403";s:7:"baseUrl";s:20:"/kpi/assets/f6934403";s:2:"js";a:6:{i:0;s:13:"highcharts.js";i:1;s:13:"highcharts.js";i:2;s:13:"highcharts.js";i:3;s:18:"highcharts-more.js";i:4;s:13:"highcharts.js";i:5;s:18:"highcharts-more.js";}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:25:"kartik\grid\GridViewAsset";a:9:{s:2:"js";a:0:{}s:3:"css";a:1:{i:0;s:19:"css/kv-grid.min.css";}s:10:"sourcePath";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-grid/assets";s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/23d0197d";s:7:"baseUrl";s:20:"/kpi/assets/23d0197d";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:65:"/Users/apple/Google Drive/htdocs/work/vendor/bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/9681d89f";s:7:"baseUrl";s:20:"/kpi/assets/9681d89f";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"kartik\grid\GridExportAsset";a:9:{s:2:"js";a:1:{i:0;s:24:"js/kv-grid-export.min.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-grid/assets";s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/23d0197d";s:7:"baseUrl";s:20:"/kpi/assets/23d0197d";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"kartik\grid\GridResizeColumnsAsset";a:9:{s:7:"depends";a:1:{i:0;s:25:"kartik\grid\GridViewAsset";}s:2:"js";a:1:{i:0;s:33:"js/jquery.resizableColumns.min.js";}s:3:"css";a:1:{i:0;s:35:"css/jquery.resizableColumns.min.css";}s:10:"sourcePath";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-grid/assets";s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/23d0197d";s:7:"baseUrl";s:20:"/kpi/assets/23d0197d";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:65:"/Users/apple/Google Drive/htdocs/work/vendor/bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/9681d89f";s:7:"baseUrl";s:20:"/kpi/assets/9681d89f";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:22:"yii\grid\GridViewAsset";a:9:{s:10:"sourcePath";s:64:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:15:"yii.gridView.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/6e895671";s:7:"baseUrl";s:20:"/kpi/assets/6e895671";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:64:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/6e895671";s:7:"baseUrl";s:20:"/kpi/assets/6e895671";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:40:"http://203.157.145.19/leaflet/leaflet.js";a:9:{s:10:"sourcePath";N;s:8:"basePath";N;s:7:"baseUrl";s:0:"";s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:2:"js";a:1:{i:0;s:40:"http://203.157.145.19/leaflet/leaflet.js";}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"kpi\assets\AppAsset";a:9:{s:8:"basePath";s:45:"/Users/apple/Google Drive/htdocs/work/kpi/web";s:7:"baseUrl";s:4:"/kpi";s:3:"css";a:4:{i:0;s:29:"themes/kingadmin/css/main.css";i:1;s:41:"themes/kingadmin/css/font-awesome.min.css";i:2;s:39:"themes/kingadmin/css/skins/darkblue.css";i:3;s:41:"themes/kingadmin/css/my-custom-styles.css";}s:2:"js";a:8:{i:0;s:50:"themes/kingadmin/js/plugins/modernizr/modernizr.js";i:1;s:67:"themes/kingadmin/js/plugins/bootstrap-tour/bootstrap-tour.custom.js";i:2;s:34:"themes/kingadmin/js/king-common.js";i:3;s:56:"themes/kingadmin/js/plugins/raphael/raphael-2.1.0.min.js";i:4;s:60:"themes/kingadmin/js/jquery-ui/jquery-ui-1.10.4.custom.min.js";i:5;s:58:"themes/kingadmin/js/plugins/jquery-mapael/jquery.mapael.js";i:6;s:70:"themes/kingadmin/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js";i:7;s:38:"themes/kingadmin/js/king-components.js";}s:7:"depends";a:3:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";i:2;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:64:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/6e895671";s:7:"baseUrl";s:20:"/kpi/assets/6e895671";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:25:"/kpi/js/activeresponse.js";a:9:{s:10:"sourcePath";N;s:8:"basePath";N;s:7:"baseUrl";s:0:"";s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:2:"js";a:1:{i:0;s:24:"kpi/js/activeresponse.js";}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"kartik\select2\Select2Asset";a:9:{s:2:"js";a:9:{i:0;s:22:"js/select2.full.min.js";i:1;s:24:"js/select2-krajee.min.js";i:2;s:13:"js/i18n/th.js";i:3;s:13:"js/i18n/th.js";i:4;s:13:"js/i18n/th.js";i:5;s:13:"js/i18n/th.js";i:6;s:13:"js/i18n/th.js";i:7;s:13:"js/i18n/th.js";i:8;s:13:"js/i18n/th.js";}s:3:"css";a:1:{i:0;s:19:"css/select2.min.css";}s:10:"sourcePath";s:80:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-select2/assets";s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/d4c88222";s:7:"baseUrl";s:20:"/kpi/assets/d4c88222";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:31:"kartik\select2\ThemeKrajeeAsset";a:9:{s:2:"js";a:0:{}s:3:"css";a:1:{i:0;s:26:"css/select2-krajee.min.css";}s:10:"sourcePath";s:80:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-widget-select2/assets";s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/d4c88222";s:7:"baseUrl";s:20:"/kpi/assets/d4c88222";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:23:"kartik\base\WidgetAsset";a:9:{s:2:"js";a:1:{i:0;s:20:"js/kv-widgets.min.js";}s:3:"css";a:1:{i:0;s:22:"css/kv-widgets.min.css";}s:10:"sourcePath";s:77:"/Users/apple/Google Drive/htdocs/work/vendor/kartik-v/yii2-krajee-base/assets";s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/4b68c42a";s:7:"baseUrl";s:20:"/kpi/assets/4b68c42a";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:64:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/6e895671";s:7:"baseUrl";s:20:"/kpi/assets/6e895671";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:22:"yii\debug\ToolbarAsset";a:9:{s:10:"sourcePath";s:70:"/Users/apple/Google Drive/htdocs/work/vendor/yiisoft/yii2-debug/assets";s:3:"css";a:1:{i:0;s:11:"toolbar.css";}s:2:"js";a:1:{i:0;s:10:"toolbar.js";}s:8:"basePath";s:61:"/Users/apple/Google Drive/htdocs/work/kpi/web/assets/a8005a5a";s:7:"baseUrl";s:20:"/kpi/assets/a8005a5a";s:7:"depends";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"58917e0779db6";s:3:"url";s:48:"http://localhost/kpi/kpi/index/?id=1&kpi_group=4";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1485929992;s:10:"statusCode";i:200;s:8:"sqlCount";i:16;s:9:"mailCount";i:0;}}

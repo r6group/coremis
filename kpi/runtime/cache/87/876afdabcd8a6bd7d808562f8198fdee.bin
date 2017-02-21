@@ -1,0 +1,128 @@
+a:2:{i:0;a:1:{i:0;a:146:{s:2:"id";s:2:"41";s:8:"kpi_year";s:4:"2560";s:9:"kpi_level";s:21:"จังหวัด";s:6:"kpi_no";s:3:"041";s:9:"kpi_order";s:4:"0.00";s:5:"title";s:147:"ร้อยละของผู้ป่วยโรคซึมเศร้าเข้าถึงบริการสุขภาพจิต";s:11:"description";s:2468:"<p><strong>การเข้าถึงบริการ หมายถึง</strong> การที่ประชาชนผู้ซึ่งได้รับการวินิจฉัยว่า เป็นโรคซึมเศร้า ได้รับการดูแลรักษาด้วยวิธีทางการแพทย์ ที่มีหลักฐานทางวิชาการที่พิสูจน์ว่า ได้ผลชัดเจน เช่น จิตบำบัด เภสัชบำบัด การรักษาด้วยไฟฟ้า ฯลฯ หรือได้รับการช่วยเหลือตามแนวทางอย่างเหมาะสมจากหน่วยบริการทุกสถานบริการของประเทศไทย</p>
+
+<p><strong>ผู้ป่วยโรคซึมเศร้า</strong> <strong>หมายถึง</strong> ประชาชนที่เจ็บป่วยด้วยโรคจิตเวชที่มีอาการสอดคล้องกับ Depressive Disorder ตามมาตรฐานการจำแนกโรคระหว่างประเทศขององค์กรอนามัยโลกฉบับที่ 10 (ICD - 10: International Classification of Diseases and Health Related Problems - 10) หมวด F32, F33, F34.1, F38 และ F39 หรือเทียบเคียงในกลุ่มโรคเดียวกันกับการวินิจฉัยตามเกณฑ์วินิจฉัยโรคของสมาคมจิตแพทย์อเมริกัน ฉบับที่ 4 (DSM-5: Diagnostic and Statistical Manual of Mental disorders 5) ที่มารับบริการสะสมมาตั้งแต่ปีงบประมาณ 2552 สะสมมาจนถึงในปีงบประมาณ (ปีที่ดำเนินการปัจจุบันที่ต้องการวัด) ทั้งรายเก่าและรายใหม่</p>
+
+<p><strong>พื้นที่เป้าหมาย</strong> <strong>หมายถึง</strong> พื้นที่ทุกจังหวัดในประเทศไทย รวมกรุงเทพมหานคร</p>
+";s:8:"kpi_unit";s:18:"ร้อยละ";s:6:"target";s:21:"ร้อยละ 50";s:10:"pop_target";s:851:"ประชาชนที่เจ็บป่วยด้วยโรคจิตเวชที่มีอาการสอดคล้องกับ Depressive Disorder ตามมาตรฐานการจำแนกโรคระหว่างประเทศขององค์กรอนามัยโลกฉบับที่ 10 (ICD – 10 : International Classification of Diseases and Health Related Problems - 10) หมวด F32, F33, F34.1, F38 และ F39 หรือเทียบเคียงในกลุ่มโรคเดียวกันกับการวินิจฉัยตามเกณฑ์วินิจฉัยโรคของสมาคมจิตแพทย์อเมริกัน ฉบับที่ 4 (DSM-5: Diagnostic and Statistical Manual of Mental disorders 5)";s:4:"goal";s:5:"50.00";s:7:"q1_goal";N;s:7:"q2_goal";N;s:7:"q3_goal";N;s:7:"q4_goal";s:5:"50.00";s:7:"fixed_a";s:1:"0";s:7:"fixed_b";s:1:"1";s:7:"fixed_c";s:1:"0";s:7:"fixed_d";s:1:"0";s:7:"fixed_e";s:1:"0";s:7:"fixed_f";s:1:"0";s:9:"max_value";s:6:"100.00";s:6:"method";s:5410:"<p>กรมสุขภาพจิต โดยโรงพยาบาลพระศรีมหาโพธิ์เป็นผู้เก็บรวบรวมข้อมูลรายงานการเข้าถึงบริการของสถานบริการสาธารณสุขทั่วประเทศจากแหล่งรายงานกลางของกระทรวงสาธารณสุข&nbsp; ทำการรวมผลการดำเนินงานในปีปัจจุบันเข้ากับผลการดำเนินงานของปีงบประมาณ 2552 ถึงปีที่ต้องการจะวัด ในฐานข้อมูลการเข้าถึงบริการโรคซึมเศร้า โรงพยาบาลพระศรีมหาโพธิ์ วิเคราะห์เป็นรายหน่วยบริการ จังหวัดเขตสุขภาพ และประเทศ แล้วนำเสนอผลที่ www.thaidepression.com</p>
+
+<p><strong><u>ในกรณีที่หน่วยบริการสาธารณสุขในพื้นที่มีความประสงค์จะขอส่งข้อมูลหรือรายงานมายังศูนย์วิจัยและสารสนเทศโรคซึมเศร้า โรงพยาบาลพระศรีมหาโพธิ์</u></strong> สามรถดำเนินการได้ดังต่อไปนี้</p>
+
+<p>1. ส่งรายงานเป็นเอกสารตามแบบฟอร์มที่กำหนดทางไปรษณีย์มายังศูนย์วิจัยและสารสนเทศโรคซึมเศร้า โรงพยาบาลพระศรีมหาโพธิ์ทีมงานจะบันทึกข้อมูลตามรายการให้อย่างครบถ้วน</p>
+
+<p>2. ส่งข้อมูลจาก file ข้อมูลแบบ excel หรือ word ที่ส่งผ่านทาง e-mail ที่ E-mail : depression54@hotmail.com หรือ info@thaidepression.com หรือ copy ลง CD ส่งทางไปรษณีย์มายังศูนย์วิจัยและสารสนเทศโรคซึมเศร้า โรงพยาบาลพระศรีมหาโพธิ์</p>
+
+<p><strong><u>ทั้งนี้ กรมสุขภาพจิต โดยโรงพยาบาลพระศรีมหาโพธิ์ จะรับดำเนินการรวบรวมพร้อมประมวลผลเข้ากับฐานข้อมูลโรคซึมเศร้าจนกว่าหน่วยบริการพื้นที่จะขอยกเลิกการส่งตามข้อ </u></strong><strong><u>1-2 </u></strong></p>
+
+<p><strong>คำอธิบายสูตร</strong><strong>:</strong></p>
+
+<p><strong>ตัวตั้ง</strong> คือ จำนวนผู้ป่วยโรคซึมเศร้า (F32, F33, F34.1, F38 และ F39) ทั้งรายเก่าและรายใหม่ที่มารับบริการสะสมมาตั้งแต่ปีงบประมาณ 2552 สะสมมาจนถึงในปีงบประมาณ (ใส่ปีที่ต้องการวัด)ในหน่วยบริการ/สถานพยาบาลรพศ./รพท./รพช./รพ.สต.และศูนย์สุขภาพชุมชนทุกจังหวัดในประเทศไทย รวมทั้งรพ./สถาบันจิตเวชในสังกัดกรมสุขภาพจิต</p>
+
+<p><strong>ตัวหาร</strong> คือ จำนวนผู้ป่วยโรคซึมเศร้าที่คำนวณจากความชุกของโรคซึมเศร้าภาพรวมทั้งประเทศ ที่มีอายุ 15 ปีขึ้นไป (อัตราความชุกจากการสำรวจระบาดวิทยาของโรคซึมเศร้าปี 2551 โดยกรมสุขภาพจิต โดยสุ่มตัวอย่างของประขากรไทยที่มีอายุตั้งแต่ 15 ปีขึ้นไปจำนวน 19,000 ราย พบอัตราความชุกของโรคซึมเศร้าภาพรวมทั้งประเทศ 2.7%(แยกเป็น Major Depressive episode 2.4%, Dysthymia0.3%) และฐานประชากรประจำปี....(จะใช้ประชากรประจำปีย้อนหลังไป 1 ปี เนื่องจากปีที่จะวัดยังไม่มีรายงาน) ที่มีอายุ 15 ปีขึ้นไปของกรมการปกครอง กระทรวงมหาดไทย</p>
+";s:11:"data_source";s:102:"<p>สถานบริการสาธารณสุขทั่วประเทศ&nbsp;</p>
+";s:6:"a_unit";s:6:"คน";s:6:"a_desc";s:288:"จำนวนผู้ป่วยโรคซึมเศร้าที่มารับบริการตั้งแต่ปีงบประมาณ 2552 สะสมมาจนถึงปีงบประมาณ (ใส่ปีที่ต้องการวัด)";s:6:"b_unit";s:6:"คน";s:6:"b_desc";s:177:"จำนวนผู้ป่วยโรคซึมเศร้าคาดประมาณจากความชุกที่ได้จากการสำรวจ";s:6:"c_unit";s:0:"";s:6:"c_desc";s:0:"";s:6:"d_unit";s:0:"";s:6:"d_desc";s:0:"";s:6:"e_unit";s:0:"";s:6:"e_desc";s:0:"";s:6:"f_unit";s:0:"";s:6:"f_desc";s:0:"";s:8:"operator";s:2:">=";s:7:"formula";s:9:"(A/B)*100";s:14:"level_ministry";s:1:"0";s:12:"level_region";s:1:"0";s:14:"level_province";s:1:"1";s:14:"level_impotant";s:1:"0";s:16:"level_ceo_assess";s:1:"0";s:4:"tags";s:0:"";s:9:"eval_freq";s:20:"ไตรมาส 4";s:8:"baseline";s:1316:"<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="width:108px">
+			<p><strong>Baseline data</strong></p>
+			</td>
+			<td rowspan="2" style="width:66px">
+			<p><strong>หน่วยวัด</strong></p>
+			</td>
+			<td colspan="3" style="width:302px">
+			<p><strong>ผลการดำเนินงานในรอบปีงบประมาณ พ.ศ.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:100px">
+			<p><strong>2557</strong></p>
+			</td>
+			<td style="width:79px">
+			<p><strong>2558</strong></p>
+			</td>
+			<td style="width:123px">
+			<p><strong>2559</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:108px">
+			<p>อัตราการเข้าถึงบริการของผู้ป่วยโรคซึมเศร้าเทียบกับคาดประมาณจากความชุกที่ได้จากการสำรวจ</p>
+			</td>
+			<td style="width:66px">
+			<p>ร้อยละ</p>
+			</td>
+			<td style="width:100px">
+			<p>36.76</p>
+			</td>
+			<td style="width:79px">
+			<p>44.14</p>
+			</td>
+			<td style="width:123px">
+			<p>45.90</p>
+
+			<p>(ณ วันที่ 25 พค.59)</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+";s:9:"eval_rule";s:842:"<div>
+<p><strong>ปี 2560 - 2564</strong><strong> :</strong></p>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:134px">
+			<p><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p><strong>รอบ 9 เดือน</strong></p>
+			</td>
+			<td style="width:132px">
+			<p><strong>รอบ 12 เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:134px">
+			<p>-</p>
+			</td>
+			<td style="width:132px">
+			<p>-</p>
+			</td>
+			<td style="width:132px">
+			<p>-</p>
+			</td>
+			<td style="width:132px">
+			<p>ร้อยละ 50</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+</div>
+";s:11:"eval_method";s:1314:"<p>รวบรวมข้อมูลผลการเข้าถึงบริการของสถานบริการสาธารณสุขทั่วประเทศจากมาตรฐานข้อมูล 43 แฟ้ม โดยการรับข้อมูลจากสำนักนโยบายและยุทธศาสตร์ กระทรวงสาธารณสุขเป็นรอบไตรมาส ที่มีข้อมูลสอดคล้องกับแบบรายงานที่กำหนดและทำการรวมผลการดำเนินงานในปีปัจจุบันเข้ากับผลการดำเนินงานของปีงบประมาณ 2552-ปีที่ต้องการจะวัดในฐานข้อมูลการเข้าถึงบริการโรคซึมเศร้า กรมสุขภาพจิต โดยโรงพยาบาลพระศรีมหาโพธิ์ แล้ววิเคราะห์ประมวลผล และนำเสนอเป็นรายจังหวัด เขตสุขภาพ และประเทศที่ www.thaidepression.com</p>
+";s:3:"doc";s:131:"<p>ข้อมูลจากฐานข้อมูล <a href="http://www.thaidepression.com/">www.thaidepression.com</a></p>
+";s:12:"tech_support";s:1405:"<p>1. นายแพทย์ธรณินทร์ กองสุข&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ผู้อำนวยการโรงพยาบาลพระศรีมหาโพธิ์</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 045-352599 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ: 084-5585956</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 045-352598 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : tkongsuk@gmail.com</p>
+
+<p>2. นางจินตนา ลี้จงเพิ่มพูน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ศูนย์วิจัยและสารสนเทศโรคซึมเศร้า</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 045-352599 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-8775751</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 045-352598&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : <a href="mailto:virgojinny12@gmail.com">virgojinny12@gmail.com</a></p>
+
+<p><strong>โรงพยาบาลพระศรีมหาโพธิ์ </strong></p>
+";s:8:"director";s:78:"<p>โรงพยาบาลพระศรีมหาโพธิ์</p>
+";s:8:"reporter";s:820:"<p>1. นางจินตนา ลี้จงเพิ่มพูน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน :045-352599 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ:081-8775751&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 045-352598&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : virgojinny12@gmail.com</p>
+
+<p><strong>ศูนย์วิจัยและสารสนเทศโรคซึมเศร้า โรงพยาบาลพระศรีมหาโพธิ์ </strong><strong>กรมสุขภาพจิต</strong></p>
+";s:11:"sql_display";s:0:"";s:21:"areabase_kpi_provcode";s:0:"";s:23:"areabase_kpi_regioncode";s:0:"";s:6:"remark";s:0:"";s:12:"content_date";N;s:11:"last_update";s:19:"2017-02-01 10:46:10";s:2:"4e";s:2:"02";s:7:"4e_name";s:64:"Service Excellence (บริการเป็นเลิศ) ";s:7:"plan_id";s:2:"06";s:9:"plan_name";s:88:"การพัฒนาระบบบริการสุขภาพ (Service Plan) ";s:10:"project_id";s:2:"20";s:12:"project_name";s:151:"โครงการพัฒนาระบบบริการสุขภาพ สาขาสุขภาพจิตและจิตเวช";s:11:"responsible";s:36:"กรมสุขภาพจิต";s:2:"pa";s:0:"";s:3:"bie";s:0:"";s:3:"hdc";s:0:"";s:12:"hosp_visible";N;s:14:"hosp_specifics";s:0:"";s:11:"hosp_ignore";N;s:5:"level";s:30:"ปีละ 1 ครั้ง";s:7:"user_id";N;s:6:"my_kpi";s:1:"0";s:12:"my_kpi_group";N;s:9:"parent_id";s:1:"0";s:6:"result";s:7:"3131.54";s:10:"result_r01";s:7:"5270.53";s:10:"result_r02";s:7:"5936.51";s:10:"result_r03";s:7:"6745.16";s:10:"result_r04";s:7:"4731.02";s:10:"result_r05";s:7:"1482.39";s:10:"result_r06";s:7:"1017.33";s:10:"result_r07";s:7:"2341.06";s:10:"result_r08";s:7:"2523.16";s:10:"result_r09";s:7:"6613.96";s:10:"result_r10";s:7:"7552.90";s:10:"result_r11";s:7:"1778.78";s:10:"result_r12";s:7:"2310.17";s:10:"result_r13";N;s:13:"result_r01_q1";N;s:13:"result_r01_q2";N;s:13:"result_r01_q3";N;s:13:"result_r01_q4";s:7:"5270.53";s:13:"result_r02_q1";N;s:13:"result_r02_q2";N;s:13:"result_r02_q3";N;s:13:"result_r02_q4";s:7:"5936.51";s:13:"result_r03_q1";N;s:13:"result_r03_q2";N;s:13:"result_r03_q3";N;s:13:"result_r03_q4";s:7:"6745.16";s:13:"result_r04_q1";N;s:13:"result_r04_q2";N;s:13:"result_r04_q3";N;s:13:"result_r04_q4";s:7:"4731.02";s:13:"result_r05_q1";N;s:13:"result_r05_q2";N;s:13:"result_r05_q3";N;s:13:"result_r05_q4";s:7:"1482.39";s:13:"result_r06_q1";N;s:13:"result_r06_q2";N;s:13:"result_r06_q3";N;s:13:"result_r06_q4";s:7:"1017.33";s:13:"result_r07_q1";N;s:13:"result_r07_q2";N;s:13:"result_r07_q3";N;s:13:"result_r07_q4";s:7:"2341.06";s:13:"result_r08_q1";N;s:13:"result_r08_q2";N;s:13:"result_r08_q3";N;s:13:"result_r08_q4";s:7:"2523.16";s:13:"result_r09_q1";N;s:13:"result_r09_q2";N;s:13:"result_r09_q3";N;s:13:"result_r09_q4";s:7:"6613.96";s:13:"result_r10_q1";N;s:13:"result_r10_q2";N;s:13:"result_r10_q3";N;s:13:"result_r10_q4";s:7:"7552.90";s:13:"result_r11_q1";N;s:13:"result_r11_q2";N;s:13:"result_r11_q3";N;s:13:"result_r11_q4";s:7:"1778.78";s:13:"result_r12_q1";N;s:13:"result_r12_q2";N;s:13:"result_r12_q3";N;s:13:"result_r12_q4";s:7:"2310.17";s:13:"result_r13_q1";N;s:13:"result_r13_q2";N;s:13:"result_r13_q3";N;s:13:"result_r13_q4";N;s:12:"attach_files";s:2:"[]";s:12:"content_file";s:4:"null";s:3:"ref";N;s:12:"owner_off_id";N;}}i:1;N;}

@@ -1,0 +1,328 @@
+a:2:{i:0;a:1:{i:0;a:1:{i:0;a:158:{s:5:"avg_a";N;s:5:"avg_c";N;s:5:"avg_d";N;s:2:"id";s:1:"1";s:8:"kpi_year";s:4:"2560";s:9:"kpi_level";s:9:"เขต";s:6:"kpi_no";s:3:"001";s:9:"kpi_order";s:4:"0.00";s:5:"title";s:123:"ร้อยละสถานบริการสุขภาพที่มีการคลอดมาตรฐาน";s:11:"description";s:2784:"<p><strong>การคลอดมาตรฐาน หมายถึง</strong></p>
+
+<p>1.มีสถานที่และอุปกรณ์ ที่ได้ตามมาตรฐาน</p>
+
+<p>2.มีบุคลากรที่สามารถให้การดูแลผู้คลอดที่มีความเสี่ยงต่ำ/ความเสี่ยงสูง</p>
+
+<p>3.มีระบบการให้บริการตามเกณฑ์</p>
+
+<p>3.1 การค้นหากลุ่มเสี่ยงด้วย admission record ที่มีการบูรณาการส่วนที่เป็นข้อมูลพื้นฐาน การจำแนกความเสี่ยง แนวทางการดูแลรักษา และเกณฑ์การส่งต่อ เมื่อพบความเสี่ยงต่างๆ เข้าด้วยกัน ดังตัวอย่าง admission record ของกรมการแพทย์</p>
+
+<p>3.2 ระบบการดูแลผู้คลอด ในระยะคลอด-หลังคลอด ด้วยกราฟดูแลการคลอด / แบบประเมิน EFM และตามคู่มือเวชปฏิบัติการคลอดมาตรฐาน ซึ่งรวมถึงการมีแนวทางในการดูแลภาวะตกเลือดหลังคลอด ดังตัวอย่าง PPH checklist guidelines หรือ PPH order set ของกรมการแพทย์</p>
+
+<p>3.3 ระบบการส่งต่อผู้คลอดที่มีภาวะเสี่ยง หรือเมื่อเกิดภาวะแทรกซ้อน ด้วยเกณฑ์การส่งต่อที่เป็นลายลักษณ์อักษร (จากโรงพยาบาลแม่ข่าย) มีการบรรจุเกณฑ์การส่งต่อดังกล่าวไว้ใน admission record และกราฟดูแลการคลอด เป็นต้น</p>
+
+<p>4.มีการติดตามและประเมินผลการคลอดมาตรฐานตามเกณฑ์</p>
+
+<p>5.มีการทบทวน การดูแลรักษามารดาที่เสียชีวิตจากการคลอด ตามเกณฑ์</p>
+
+<p>(รายละเอียดในคู่มือเวชปฏิบัติการคลอดมาตรฐาน กรมการแพทย์)</p>
+";s:8:"kpi_unit";s:18:"ร้อยละ";s:6:"target";s:191:"ร้อยละของโรงพยาบาลระดับ M1 ขึ้นไป ผ่านเกณฑ์การประเมินการคลอดมาตรฐาน";s:10:"pop_target";s:121:"สถานบริการสุขภาพของรัฐทุกระดับ ทั่วประเทศ";s:4:"goal";s:5:"60.00";s:7:"q1_goal";N;s:7:"q2_goal";s:5:"60.00";s:7:"q3_goal";N;s:7:"q4_goal";s:5:"60.00";s:7:"fixed_a";s:1:"0";s:7:"fixed_b";s:1:"1";s:7:"fixed_c";s:1:"0";s:7:"fixed_d";s:1:"0";s:7:"fixed_e";s:1:"0";s:7:"fixed_f";s:1:"0";s:9:"max_value";s:6:"100.00";s:6:"method";s:263:"<p>สำรวจและประเมินตามเกณฑ์มาตรฐาน โดยทีมนิเทศและตรวจราชการกระทรวงสาธารณสุข และกรมการแพทย์</p>
+";s:11:"data_source";s:99:"<p>สำรวจและประเมินตามเกณฑ์มาตรฐาน</p>
+";s:6:"a_unit";s:12:"แห่ง";s:6:"a_desc";s:171:"จำนวนสถานบริการสุขภาพของรัฐทุกระดับที่ผ่านเกณฑ์การประเมิน";s:6:"b_unit";s:12:"แห่ง";s:6:"b_desc";s:126:"จำนวนสถานบริการสุขภาพของรัฐทุกระดับทั้งหมด";s:6:"c_unit";s:0:"";s:6:"c_desc";s:0:"";s:6:"d_unit";s:0:"";s:6:"d_desc";s:0:"";s:6:"e_unit";s:0:"";s:6:"e_desc";s:0:"";s:6:"f_unit";s:0:"";s:6:"f_desc";s:0:"";s:8:"operator";s:2:">=";s:7:"formula";s:9:"(A/B)*100";s:14:"level_ministry";s:1:"0";s:12:"level_region";s:1:"0";s:14:"level_province";s:1:"0";s:14:"level_impotant";s:1:"0";s:16:"level_ceo_assess";s:1:"0";s:4:"tags";s:0:"";s:9:"eval_freq";s:32:"ไตรมาส 2 และ 4";s:8:"baseline";s:1322:"<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="width:91px">
+			<p style="text-align: center;"><strong>Baseline data</strong></p>
+			</td>
+			<td rowspan="2" style="width:91px">
+			<p style="text-align: center;"><strong>หน่วยวัด</strong></p>
+			</td>
+			<td colspan="3" style="width:274px">
+			<p style="text-align: center;"><strong>ผลการดำเนินงานในรอบปีงบประมาณ พ.ศ.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:91px">
+			<p style="text-align: center;"><strong>2557</strong></p>
+			</td>
+			<td style="width:91px">
+			<p style="text-align: center;"><strong>2558</strong></p>
+			</td>
+			<td style="width:91px">
+			<p style="text-align: center;"><strong>2559</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:91px">
+			<p style="text-align: center;">NA</p>
+			</td>
+			<td style="width:91px">
+			<p style="text-align: center;">NA</p>
+			</td>
+			<td style="width:91px">
+			<p style="text-align: center;">NA</p>
+			</td>
+			<td style="width:91px">
+			<p style="text-align: center;">NA</p>
+			</td>
+			<td style="width:91px">
+			<p style="text-align: center;">NA</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+";s:9:"eval_rule";s:5334:"<p><strong>ปี 2560</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;"><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>-</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">60</p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">-</p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;">60</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2561</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;"><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;">-</p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">70</p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">-</p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;">70</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2562</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;"><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>-</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">80</p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">-</p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;">80</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2563</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;"><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height:12px; width:160px">
+			<p style="text-align: center;"><strong>-</strong></p>
+			</td>
+			<td style="height:12px; width:161px">
+			<p style="text-align: center;">90</p>
+			</td>
+			<td style="height:12px; width:161px">
+			<p style="text-align: center;">-</p>
+			</td>
+			<td style="height:12px; width:142px">
+			<p style="text-align: center;">90</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2564</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;"><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;"><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p style="text-align: center;"><strong>-</strong></p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">100</p>
+			</td>
+			<td style="width:161px">
+			<p style="text-align: center;">-</p>
+			</td>
+			<td style="width:142px">
+			<p style="text-align: center;">100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+";s:11:"eval_method";s:1122:"<p>1. เขต สสจ. ผลักดันและสร้างความเข้าใจขั้นตอน/กระบวนการ/ความเชื่อมโยงของ</p>
+
+<p>&nbsp;&nbsp; นโยบาย</p>
+
+<p>2. ทีมนิเทศและตรวจราชการของกระทรวงสาธารณสุขและกรมการแพทย์ ทำการสำรวจ</p>
+
+<p>&nbsp;&nbsp;&nbsp; และประเมินสถานบริการสุขภาพของรัฐตามเกณฑ์(พ่วงไปกับการประเมินโรงพยาบาล</p>
+
+<p>&nbsp;&nbsp;&nbsp; สายใยรัก)</p>
+
+<p>3. สรุปผลการประเมิน</p>
+
+<p>4. คำนวณอัตราส่วนของสถานบริการสุขภาพของรัฐที่ผ่านเกณฑ์การประเมิน/สถานบริการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; สุขภาพของรัฐทั้งหมด</p>
+";s:3:"doc";s:133:"<p>คู่มือเวชปฏิบัติการคลอดมาตรฐาน กรมการแพทย์</p>
+";s:12:"tech_support";s:767:"<p>1. ผศ.นพ. เกษม เสรีพรเจริญกุล &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; หัวหน้ากลุ่มงานสูติกรรม</p>
+
+<p>&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-2062988&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-6945405</p>
+
+<p>&nbsp;&nbsp; โทรสาร : 02-3548084&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : <a href="mailto:kasem_saeree@yahoo.com">kasem_saeree@yahoo.com</a></p>
+
+<p><strong>โรงพยาบาลราชวิถี</strong></p>
+";s:8:"director";s:1821:"<p>1. นพ.ภัทรวินฑ์ อัตตะสาระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; รองผู้อำนวยการสำนักนิเทศระบบการแพทย์ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906357&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-9357334</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-9659851&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : pattarawin@gmail.com</p>
+
+<p>2. นางจุฬารักษ์ สิงหกลางพล&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักวิชาการสาธารรสุขชำนาญการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906288&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-355-4866,</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 081-8424148</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-9659851&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : <a href="mailto:klangpol@yahoo.com">klangpol@yahoo.com</a></p>
+
+<p><strong>กรมการแพทย์</strong></p>
+";s:8:"reporter";s:3284:"<p>1. นางสาวสิริพร มนยฤทธิ์ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักวิชาการสาธารณสุข</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; กลุ่มงานพัฒนานโยบายและยุทธศาสตร์&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; การแพทย์</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-2062957&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 085-7038850</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-2062957&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : coeplus.rajavithi@gmai.com</p>
+
+<p><strong>โรงพยาบาลราชวิถี</strong></p>
+
+<p>2. นพ.ภัทรวินฑ์ อัตตะสาระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; รองผู้อำนวยการสำนักนิเทศระบบการแพทย์</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906357&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-9357334</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-9659851&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pattarawin@gmail.com</p>
+
+<p>3. นายปวิช อภิปาลกุล &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักวิเคราะห์นโยบายและแผนปฏิบัติการ</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; สำนักยุทธศาสตร์การแพทย์กรมการแพทย์</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906352&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : :&nbsp;085-9594499</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5918279&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : <a href="mailto:moeva_dms@yahoo.com">moeva_dms@yahoo.com</a></p>
+
+<p><strong>กรมการแพทย์</strong></p>
+";s:11:"sql_display";s:0:"";s:21:"areabase_kpi_provcode";s:0:"";s:23:"areabase_kpi_regioncode";s:0:"";s:6:"remark";s:0:"";s:12:"content_date";N;s:11:"last_update";s:19:"2017-01-30 16:23:35";s:2:"4e";s:2:"01";s:7:"4e_name";s:143:" Prevention & Promotion Excellence (ส่งเสริมสุขภาพและป้องกันโรคเป็นเลิศ) ";s:7:"plan_id";s:2:"01";s:9:"plan_name";s:139:"การพัฒนาคุณภาพชีวิตคนไทยทุกกลุ่มวัย (ด้านสุขภาพ) ";s:10:"project_id";s:2:"01";s:12:"project_name";s:177:"โครงการพัฒนาและสร้างเสริมศักยภาพคนไทยกลุ่มสตรีและเด็กปฐมวัย";s:11:"responsible";s:33:"กรมการแพทย์";s:2:"pa";s:0:"";s:3:"bie";s:0:"";s:3:"hdc";s:0:"";s:12:"hosp_visible";N;s:14:"hosp_specifics";s:0:"";s:11:"hosp_ignore";N;s:5:"level";s:27:"ทุก 6 เดือน";s:7:"user_id";N;s:6:"my_kpi";s:1:"0";s:12:"my_kpi_group";N;s:9:"parent_id";s:1:"0";s:6:"result";s:5:"98.53";s:10:"result_r01";N;s:10:"result_r02";N;s:10:"result_r03";N;s:10:"result_r04";N;s:10:"result_r05";N;s:10:"result_r06";N;s:10:"result_r07";s:5:"98.53";s:10:"result_r08";N;s:10:"result_r09";N;s:10:"result_r10";N;s:10:"result_r11";N;s:10:"result_r12";N;s:10:"result_r13";N;s:13:"result_r01_q1";N;s:13:"result_r01_q2";N;s:13:"result_r01_q3";N;s:13:"result_r01_q4";N;s:13:"result_r02_q1";N;s:13:"result_r02_q2";N;s:13:"result_r02_q3";N;s:13:"result_r02_q4";N;s:13:"result_r03_q1";N;s:13:"result_r03_q2";N;s:13:"result_r03_q3";N;s:13:"result_r03_q4";N;s:13:"result_r04_q1";N;s:13:"result_r04_q2";N;s:13:"result_r04_q3";N;s:13:"result_r04_q4";N;s:13:"result_r05_q1";N;s:13:"result_r05_q2";N;s:13:"result_r05_q3";N;s:13:"result_r05_q4";N;s:13:"result_r06_q1";N;s:13:"result_r06_q2";N;s:13:"result_r06_q3";N;s:13:"result_r06_q4";N;s:13:"result_r07_q1";s:4:"0.00";s:13:"result_r07_q2";s:5:"98.53";s:13:"result_r07_q3";s:5:"98.53";s:13:"result_r07_q4";s:5:"98.53";s:13:"result_r08_q1";N;s:13:"result_r08_q2";N;s:13:"result_r08_q3";N;s:13:"result_r08_q4";N;s:13:"result_r09_q1";N;s:13:"result_r09_q2";N;s:13:"result_r09_q3";N;s:13:"result_r09_q4";N;s:13:"result_r10_q1";N;s:13:"result_r10_q2";N;s:13:"result_r10_q3";N;s:13:"result_r10_q4";N;s:13:"result_r11_q1";N;s:13:"result_r11_q2";N;s:13:"result_r11_q3";N;s:13:"result_r11_q4";N;s:13:"result_r12_q1";N;s:13:"result_r12_q2";N;s:13:"result_r12_q3";N;s:13:"result_r12_q4";N;s:13:"result_r13_q1";N;s:13:"result_r13_q2";N;s:13:"result_r13_q3";N;s:13:"result_r13_q4";N;s:12:"attach_files";s:4:"null";s:12:"content_file";s:4:"null";s:3:"ref";N;s:12:"owner_off_id";N;s:11:"page_result";N;s:11:"kpi_a_value";N;s:11:"kpi_b_value";N;s:11:"kpi_c_value";N;s:11:"kpi_d_value";N;s:11:"kpi_e_value";N;s:11:"kpi_f_value";N;s:10:"kpi_result";N;s:10:"avg_result";N;}}}i:1;N;}

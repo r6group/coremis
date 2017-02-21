@@ -1,0 +1,316 @@
+a:2:{i:0;a:1:{i:0;a:146:{s:2:"id";s:2:"44";s:8:"kpi_year";s:4:"2560";s:9:"kpi_level";s:9:"เขต";s:6:"kpi_no";s:3:"044";s:9:"kpi_order";s:4:"0.00";s:5:"title";s:242:"ร้อยละโรงพยาบาลตั้งแต่ระดับ F2 ขึ้นไปสามารถให้ยาละลายลิ่มเลือด (Fibrinolytic drug) ในผู้ป่วย STEMI ได้";s:11:"description";s:2036:"<p><strong>ผู้ป่วยโรคกล้ามเนื้อหัวใจตายเฉียบพลัน ชนิด </strong><strong>STEMI</strong> <strong>หมายถึง</strong> กล้ามเนื้อหัวใจที่ขาดเลือดมาเลี้ยงจนเกิดการตายของกล้ามเนื้อ และมีคลื่นไฟฟ้าหัวใจผิดปกติชนิดเอสทียก&nbsp;&nbsp; (ST Elevated Myocardial Infarction)</p>
+
+<p><strong>รพ.ในระดับ </strong><strong>F2 หมายถึง</strong> โรงพยาบาลชุมชนชนาดกลาง มีขนาดเตียง 30 &ndash;90 เตียง มีแพทย์เวชปฏิบัติ หรือแพทย์เวชศาสตร์ครอบครัว รวม 2&ndash;5 คน ไม่มีแพทย์เฉพาะทาง มีบริการผู้ป่วยใน มีห้องผ่าตัด มีห้องคลอด รองรับผู้ป่วยและผู้ป่วยในของแต่ละอำเภอ สนับสนุนเครือข่ายบริการปฐมภูมิของแต่ละอำเภอ</p>
+
+<p><strong>Fibrinolytic drug หมายถึง </strong>ยาละลายหรือสลายลิ่มเลือด เช่น Streptokinase, Tenecteplaseเป็นต้น</p>
+
+<p><strong>กลวิธีดำเนินงาน</strong></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp; ดำเนินการเพิ่มศักยภาพ รพ.ในตั้งแต่ระดับ F2 ทุกแห่ง ให้สามารถให้ยาละลายลิ่มเลือดได้ มียาใช้ได้ตลอดเวลา และไม่เก็บไว้จนยาหมดอายุ&nbsp;</p>
+";s:8:"kpi_unit";s:18:"ร้อยละ";s:6:"target";s:22:"ร้อยละ 100";s:10:"pop_target";s:193:"จำนวนโรงพยาบาลในระดับ F2และ F2 ขึ้นไปทุกแห่งที่สังกัดกระทรวงสาธารณสุข";s:4:"goal";s:6:"100.00";s:7:"q1_goal";N;s:7:"q2_goal";s:5:"80.00";s:7:"q3_goal";N;s:7:"q4_goal";s:6:"100.00";s:7:"fixed_a";s:1:"0";s:7:"fixed_b";s:1:"1";s:7:"fixed_c";s:1:"0";s:7:"fixed_d";s:1:"0";s:7:"fixed_e";s:1:"0";s:7:"fixed_f";s:1:"0";s:9:"max_value";s:6:"100.00";s:6:"method";s:271:"<p>รายงานข้อมูล รพ.ระดับ F2และ F2 ขึ้นไปที่มีการให้ยาละลายลิ่มเลือดในผู้ป่วย STEMI ได้จากทุกเขตบริการ</p>
+";s:11:"data_source";s:153:"<p>จากทุกเครือข่ายเขตบริการสุขภาพในกระทรวงสาธารณสุข</p>
+";s:6:"a_unit";s:12:"แห่ง";s:6:"a_desc";s:241:"รพ.ระดับ F2 ในเขตที่และ F2 ขึ้นไปที่มีการให้ยาละลายลิ่มเลือดในผู้ป่วย STEMI ในเขตบริการนั้น";s:6:"b_unit";s:12:"แห่ง";s:6:"b_desc";s:106:"รพ. ระดับ F2 และ F2 ขึ้นไปทั้งหมดในเขตนั้น";s:6:"c_unit";s:0:"";s:6:"c_desc";s:0:"";s:6:"d_unit";s:0:"";s:6:"d_desc";s:0:"";s:6:"e_unit";s:0:"";s:6:"e_desc";s:0:"";s:6:"f_unit";s:0:"";s:6:"f_desc";s:0:"";s:8:"operator";s:2:">=";s:7:"formula";s:9:"(A/B)*100";s:14:"level_ministry";s:1:"0";s:12:"level_region";s:1:"1";s:14:"level_province";s:1:"0";s:14:"level_impotant";s:1:"0";s:16:"level_ceo_assess";s:1:"0";s:4:"tags";s:0:"";s:9:"eval_freq";s:38:"ไตรมาส 1, 2, 3 และ 4";s:8:"baseline";s:1236:"<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="width:91px">
+			<p><strong>Baseline data</strong></p>
+			</td>
+			<td rowspan="2" style="width:91px">
+			<p><strong>หน่วยวัด</strong></p>
+			</td>
+			<td colspan="3" style="width:274px">
+			<p><strong>ผลการดำเนินงานในรอบปีงบประมาณ พ.ศ.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:91px">
+			<p><strong>2557</strong></p>
+			</td>
+			<td style="width:91px">
+			<p><strong>2558</strong></p>
+			</td>
+			<td style="width:91px">
+			<p><strong>2559</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:91px">
+			<p>75.93</p>
+			</td>
+			<td style="width:91px">
+			<p>ร้อยละ</p>
+			</td>
+			<td style="width:91px">
+			<p>54.29</p>
+			</td>
+			<td style="width:91px">
+			<p>75.93</p>
+			</td>
+			<td style="width:91px">
+			<p>100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+
+<p>ที่มาข้อมูล : สำนักบริหารการสาธารณสุขและกรมการแพทย์</p>
+
+<div>&nbsp;</div>
+
+<p>&nbsp;</p>
+";s:9:"eval_rule";s:4221:"<p><strong>ปี 2560</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p><strong>-</strong></p>
+			</td>
+			<td style="width:161px">
+			<p>80</p>
+			</td>
+			<td style="width:161px">
+			<p>-</p>
+			</td>
+			<td style="width:142px">
+			<p>100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2561</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p>-</p>
+			</td>
+			<td style="width:161px">
+			<p>100</p>
+			</td>
+			<td style="width:161px">
+			<p>-</p>
+			</td>
+			<td style="width:142px">
+			<p>100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2562</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p><strong>-</strong></p>
+			</td>
+			<td style="width:161px">
+			<p>100</p>
+			</td>
+			<td style="width:161px">
+			<p>-</p>
+			</td>
+			<td style="width:142px">
+			<p>100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2563</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height:12px; width:160px">
+			<p><strong>-</strong></p>
+			</td>
+			<td style="height:12px; width:161px">
+			<p>100</p>
+			</td>
+			<td style="height:12px; width:161px">
+			<p>-</p>
+			</td>
+			<td style="height:12px; width:142px">
+			<p>100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>ปี 2564</strong><strong>:</strong></p>
+
+<table align="left" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:160px">
+			<p><strong>รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:161px">
+			<p><strong>รอบ 9เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p><strong>รอบ 12เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:160px">
+			<p><strong>-</strong></p>
+			</td>
+			<td style="width:161px">
+			<p>100</p>
+			</td>
+			<td style="width:161px">
+			<p>-</p>
+			</td>
+			<td style="width:142px">
+			<p>100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+";s:11:"eval_method";s:1506:"<p>1. โรงพยาบาลมีแนวทางในการให้ยาละลายลิ่มเลือด (Fibrinolytic drug) โดยมีระบบการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; ให้คำปรึกษาตลอด 24 ชั่วโมงทุกวัน</p>
+
+<p>2. โรงพยาบาลมียาละลายลิ่มเลือด (Fibrinolytic drug) และมีระบบการบริหารยาละลาย</p>
+
+<p>&nbsp;&nbsp; ลิ่มเลือด โดยต้องมีพร้อมให้ตลอด 24 ชั่วโมงทุกวันและมีระบบหมุนเวียนยาระหว่าง</p>
+
+<p>&nbsp;&nbsp; โรงพยาบาลศูนย์และ โรงพยาบาลชุมชน</p>
+
+<p>3. มีการให้ยาละลายลิ่มเลือดได้จริงและมีข้อมูลร้อยละของการให้ยาในผู้ป่วย STEMI</p>
+
+<p>4. มีความพร้อมของหน่วยงานและทีมงาน มีอุปกรณ์เครื่องช่วยชีวิต มีรถพยาบาลพร้อมส่ง</p>
+
+<p>&nbsp;&nbsp; ในกรณีฉุกเฉินตลอด 24 ชั่วโมงทุกวัน</p>
+
+<p>หมายเหตุ : ต้องมีข้อ1-3</p>
+";s:3:"doc";s:117:"<p>รายงานจากทุกเขตเครือข่ายบริการสุขภาพ</p>
+";s:12:"tech_support";s:763:"<p>1. นพ.เกรียงไกร&nbsp; เฮงรัศมี &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; หัวหน้ากลุ่มงานอายุรศาสตร์หัวใจ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5919999 ต่อ 30920&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-3484236</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5919972&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : kk_hm2000@yahoo.com</p>
+
+<p><strong>สถาบันโรคทรวงอก กรมการแพทย์&nbsp; </strong></p>
+";s:8:"director";s:1535:"<p style="margin-left:1.7pt">1. นางกนกพร แจ่มสมบูรณ์ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; รองผู้อำนวยการสถาบันโรคทรวงอก</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5919999 ต่อ 30903&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 089-8131937</p>
+
+<p style="margin-left:1.7pt">&nbsp;&nbsp;&nbsp; โทรสาร : 02-5470907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : j_kanokpon@hotmail.com</p>
+
+<p style="margin-left:1.7pt"><strong>กรมการแพทย์</strong></p>
+
+<p style="margin-left:1.7pt">2. นพ.ภัทรวินฑ์ อัตตะสาระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; รองผู้อำนวยการสำนักนิเทศระบบการแพทย์</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906357&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-9357334</p>
+
+<p style="margin-left:1.7pt">&nbsp;&nbsp;&nbsp; โทรสาร : 02-9659851&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : pattarawin@gmail.com</p>
+
+<p style="margin-left:1.7pt"><strong>กรมการแพทย์</strong></p>
+";s:8:"reporter";s:1561:"<p style="margin-left:1.7pt">1. นพ.ภัทรวินฑ์ อัตตะสาระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; รองผู้อำนวยการสำนักนิเทศระบบการแพทย์</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906357&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 081-9357334</p>
+
+<p style="margin-left:1.7pt">&nbsp;&nbsp;&nbsp; โทรสาร : 02-9659851&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : pattarawin@gmail.com</p>
+
+<p><strong>กรมการแพทย์&nbsp; </strong></p>
+
+<p>2. นายปวิช อภิปาลกุล &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักวิเคราะห์นโยบายและแผนปฏิบัติการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5906352&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 085-9594499</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5918279&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : moeva_dms@yahoo.com</p>
+
+<p><strong>สำนักยุทธศาสตร์การแพทย์ กรมการแพทย์&nbsp;</strong></p>
+";s:11:"sql_display";s:0:"";s:21:"areabase_kpi_provcode";s:0:"";s:23:"areabase_kpi_regioncode";s:0:"";s:6:"remark";s:0:"";s:12:"content_date";N;s:11:"last_update";s:19:"2017-02-01 09:35:37";s:2:"4e";s:2:"02";s:7:"4e_name";s:64:"Service Excellence (บริการเป็นเลิศ) ";s:7:"plan_id";s:2:"06";s:9:"plan_name";s:88:"การพัฒนาระบบบริการสุขภาพ (Service Plan) ";s:10:"project_id";s:2:"22";s:12:"project_name";s:121:"โครงการพัฒนาระบบบริการสุขภาพ สาขาโรคหัวใจ";s:11:"responsible";s:33:"กรมการแพทย์";s:2:"pa";s:0:"";s:3:"bie";s:0:"";s:3:"hdc";s:1:"1";s:12:"hosp_visible";N;s:14:"hosp_specifics";s:0:"";s:11:"hosp_ignore";N;s:5:"level";s:27:"ทุก 3 เดือน";s:7:"user_id";N;s:6:"my_kpi";s:1:"0";s:12:"my_kpi_group";N;s:9:"parent_id";s:1:"0";s:6:"result";s:5:"13.53";s:10:"result_r01";s:5:"12.30";s:10:"result_r02";s:4:"9.09";s:10:"result_r03";s:5:"22.37";s:10:"result_r04";s:5:"13.71";s:10:"result_r05";s:5:"16.75";s:10:"result_r06";s:5:"13.06";s:10:"result_r07";s:4:"7.28";s:10:"result_r08";s:4:"8.95";s:10:"result_r09";s:5:"14.33";s:10:"result_r10";s:4:"7.90";s:10:"result_r11";s:5:"18.60";s:10:"result_r12";s:5:"16.13";s:10:"result_r13";N;s:13:"result_r01_q1";N;s:13:"result_r01_q2";N;s:13:"result_r01_q3";N;s:13:"result_r01_q4";s:5:"12.30";s:13:"result_r02_q1";N;s:13:"result_r02_q2";N;s:13:"result_r02_q3";N;s:13:"result_r02_q4";s:4:"9.09";s:13:"result_r03_q1";N;s:13:"result_r03_q2";N;s:13:"result_r03_q3";N;s:13:"result_r03_q4";s:5:"22.37";s:13:"result_r04_q1";N;s:13:"result_r04_q2";N;s:13:"result_r04_q3";N;s:13:"result_r04_q4";s:5:"13.71";s:13:"result_r05_q1";N;s:13:"result_r05_q2";N;s:13:"result_r05_q3";N;s:13:"result_r05_q4";s:5:"16.75";s:13:"result_r06_q1";N;s:13:"result_r06_q2";N;s:13:"result_r06_q3";N;s:13:"result_r06_q4";s:5:"13.06";s:13:"result_r07_q1";N;s:13:"result_r07_q2";N;s:13:"result_r07_q3";N;s:13:"result_r07_q4";s:4:"7.28";s:13:"result_r08_q1";N;s:13:"result_r08_q2";N;s:13:"result_r08_q3";N;s:13:"result_r08_q4";s:4:"8.95";s:13:"result_r09_q1";N;s:13:"result_r09_q2";N;s:13:"result_r09_q3";N;s:13:"result_r09_q4";s:5:"14.33";s:13:"result_r10_q1";N;s:13:"result_r10_q2";N;s:13:"result_r10_q3";N;s:13:"result_r10_q4";s:4:"7.90";s:13:"result_r11_q1";N;s:13:"result_r11_q2";N;s:13:"result_r11_q3";N;s:13:"result_r11_q4";s:5:"18.60";s:13:"result_r12_q1";N;s:13:"result_r12_q2";N;s:13:"result_r12_q3";N;s:13:"result_r12_q4";s:5:"16.13";s:13:"result_r13_q1";N;s:13:"result_r13_q2";N;s:13:"result_r13_q3";N;s:13:"result_r13_q4";N;s:12:"attach_files";s:4:"null";s:12:"content_file";s:4:"null";s:3:"ref";N;s:12:"owner_off_id";N;}}i:1;N;}

@@ -1,0 +1,155 @@
+a:2:{i:0;a:1:{i:0;a:146:{s:2:"id";s:2:"10";s:8:"kpi_year";s:4:"2560";s:9:"kpi_level";s:18:"ประเทศ";s:6:"kpi_no";s:3:"010";s:9:"kpi_order";s:4:"0.00";s:5:"title";s:133:"ร้อยละของประชาชนวัยทำงาน มีค่าดัชนีมวลกายปกติ";s:11:"description";s:509:"<p><strong>ประชานชนวัยทำงาน</strong> <strong>หมายถึง</strong> ประชาชนอายุ 18 ปี&ndash; 59 ปี 11 เดือน 29 วัน</p>
+
+<p><strong>ดัชนีมวลกายปกติ</strong> <strong>หมายถึง</strong> น้ำหนักเหมาะสมกับส่วนสูง โดยมีค่าดัชนีมวลกาย อยู่ในช่วง 18.5-22.9 กก./ตรม.</p>
+";s:8:"kpi_unit";s:18:"ร้อยละ";s:6:"target";s:2:"54";s:10:"pop_target";s:117:"ประชานชนวัยทำงาน อายุ 18 ปี – 59 ปี 11 เดือน 29 วัน";s:4:"goal";s:5:"54.00";s:7:"q1_goal";N;s:7:"q2_goal";N;s:7:"q3_goal";N;s:7:"q4_goal";s:5:"54.00";s:7:"fixed_a";s:1:"0";s:7:"fixed_b";s:1:"1";s:7:"fixed_c";s:1:"0";s:7:"fixed_d";s:1:"0";s:7:"fixed_e";s:1:"0";s:7:"fixed_f";s:1:"0";s:9:"max_value";s:6:"100.00";s:6:"method";s:1041:"<p>1.รพ.สต. และPCU ของโรงพยาบาลบันทึกในโปรแกรมหลักของสถานบริการ และส่งออกข้อมูลตามโครงสร้างมาตรฐาน 43 แฟ้ม โดยระบบ Health data center (HDC)</p>
+
+<p>2.จากการสำรวจทุกๆ 3 ปี โดยการสุ่มชั่งน้ำหนัก วัดส่วนสูงประชานชนวัยทำงาน ที่เป็นตัวแทนในระดับจังหวัดทุกจังหวัด (ทำร่วมกับการสำรวจการบริโภคอาหารที่เหมาะสม)</p>
+
+<p>3.จากการสำรวจสุขภาพประชาชนไทย โดยการตรวจร่างกาย จากสำนักงานสำรวจสุขภาพประชาชนไทย (สสท.)</p>
+";s:11:"data_source";s:934:"<p>1.สถานบริการสาธารณสุขทุกแห่ง (สสจ./รพศ./รพช./รพสต. ศูนย์บริการสาธารณสุข กทม.)</p>
+
+<p>2.ระบบคลังข้อมูล กรมสนับสนุนบริการสุขภาพ</p>
+
+<p>3.ระบบข้อมูล BRFSS สำนักโรคไม่ติดต่อ</p>
+
+<p>4.รายงานการสำรวจสุขภาพประชาชนไทย โดยการตรวจร่างกายสำนักงานสำรวจสุขภาพประชาชนไทย (สสท.)</p>
+
+<p>5.จากการสำรวจโดยการสุ่มชั่งน้ำหนัก วัดส่วนสูงประชานชนวัยทำงาน&nbsp; ของสำนักโภชนาการ</p>
+";s:6:"a_unit";s:6:"คน";s:6:"a_desc";s:163:"จำนวนประชากรวัยทำงานอายุ 18 ปีขึ้นไป- 59 ปี มีดัชนีมวลกายปกติ";s:6:"b_unit";s:6:"คน";s:6:"b_desc";s:205:"จำนวนประชากรวัยทำงานอายุ 18 ปีขึ้นไป- 59 ปี ที่ชั่งน้ำหนักวัดส่วนสูงทั้งหมด";s:6:"c_unit";s:0:"";s:6:"c_desc";s:0:"";s:6:"d_unit";s:0:"";s:6:"d_desc";s:0:"";s:6:"e_unit";s:0:"";s:6:"e_desc";s:0:"";s:6:"f_unit";s:0:"";s:6:"f_desc";s:0:"";s:8:"operator";s:2:">=";s:7:"formula";s:9:"(A/B)*100";s:14:"level_ministry";s:1:"1";s:12:"level_region";s:1:"0";s:14:"level_province";s:1:"0";s:14:"level_impotant";s:1:"0";s:16:"level_ceo_assess";s:1:"0";s:4:"tags";s:15:"43 แฟ้ม";s:9:"eval_freq";s:296:"การตรวจราชการแต่ละจังหวัดและนิเทศศูนย์อนามัย และเปรียบเทียบข้อมูลในระบบHDC กับค่าเป้าหมาย ไตรมาส 1, 2, 3 และ 4";s:8:"baseline";s:1233:"<table border="1" cellpadding="0" cellspacing="0" style="width:481px">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="height:28px; width:131px">
+			<p><strong>Baseline data</strong></p>
+			</td>
+			<td rowspan="2" style="height:28px; width:83px">
+			<p><strong>หน่วยวัด</strong></p>
+			</td>
+			<td colspan="3" style="height:28px; width:267px">
+			<p><strong>ผลการดำเนินงานในรอบปีงบประมาณ พ.ศ.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height:28px; width:83px">
+			<p><strong>2557</strong></p>
+			</td>
+			<td style="height:28px; width:92px">
+			<p><strong>2558</strong></p>
+			</td>
+			<td style="height:28px; width:92px">
+			<p><strong>2559</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height:56px; width:131px">
+			<p>39.64</p>
+
+			<p>(ปี 52 BMI ปกติ)</p>
+			</td>
+			<td style="height:56px; width:83px">
+			<p>ร้อยละ</p>
+			</td>
+			<td style="height:56px; width:83px">
+			<p>36.43</p>
+			</td>
+			<td style="height:56px; width:92px">
+			<p>ไม่มี</p>
+			</td>
+			<td style="height:56px; width:92px">
+			<p>ไม่มี</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+";s:9:"eval_rule";s:2440:"<p><strong>ปี 2560 &ndash; 2564 </strong><strong>:</strong></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:673px">
+	<tbody>
+		<tr>
+			<td style="width:259px">
+			<p><strong>&nbsp;รอบ 3 เดือน</strong></p>
+			</td>
+			<td style="width:121px">
+			<p><strong>รอบ 6 เดือน</strong></p>
+			</td>
+			<td style="width:151px">
+			<p><strong>รอบ 9 เดือน</strong></p>
+			</td>
+			<td style="width:142px">
+			<p><strong>รอบ 12 เดือน</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:259px">
+			<p style="margin-left:8.55pt"><u>ส่วนกลาง</u></p>
+
+			<ul>
+				<li>ประสานความร่วมมือกับ กรมควบคุมโรค กรมสนับสนุนบริการสุขภาพ กรมการแพทย์ ในการส่งเสริมให้ประชาชนวัยทำงาน ผู้สูงอายุ สุขภาพดี โดยให้มีค่าดัชนีมวลกายให้อยู่ในเกณฑ์ปกติ</li>
+				<li>จัดทำและสนับสนุนคู่มือ/มาตรการดำเนินงานโภชนาการในกลุ่มวัยทำงานและผู้สูงอายุ</li>
+				<li>ประชุมชี้แจงการดำเนินงานแก่เขตสุขภาพ สำนักงานสาธารณสุขจังหวัด และศูนย์อนามัย</li>
+				<li>จัดตั้งทีมนิเทศติดตามและประเมินผล</li>
+			</ul>
+			</td>
+			<td style="width:121px">
+			<ul>
+				<li>ร้อยละ 60 จังหวัดดำเนินงานตามแนวทาง/มาตรการ</li>
+			</ul>
+
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:151px">
+			<ul>
+				<li>ร้อยละ 80 จังหวัดดำเนินงานตามแนวทาง/มาตรการ</li>
+			</ul>
+
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:142px">
+			<ul>
+				<li>ร้อยละ 100 จังหวัดดำเนินงานตามแนวทาง/มาตรการ</li>
+			</ul>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+";s:11:"eval_method";s:367:"<p>1) การตรวจราชการแต่ละจังหวัดและนิเทศศูนย์อนามัย และเปรียบเทียบข้อมูลในระบบ</p>
+
+<p>&nbsp; &nbsp;&nbsp;HDCกับค่าเป้าหมาย</p>
+
+<p>2) การสุ่มสำรวจ ทุก 3 ปี</p>
+";s:3:"doc";s:233:"<p>1. โรคอ้วนลงพุง</p>
+
+<p>2. พิชิตอ้วน พิชิตพุง</p>
+
+<p>3. ดูแลหุ่นสวย ด้วยตนเอง</p>
+
+<p>4. ขยับกับกิน</p>
+";s:12:"tech_support";s:1910:"<p>1. นางกุลพร&nbsp; สุขุมาลตระกูล &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักโภชนาการชำนาญการพิเศษ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5904307-8&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : -</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5904339&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : kunpunk11@gmail.com</p>
+
+<p>2. นางวสุนธรี&nbsp; เสรีสุชาติ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักโภชนาการชำนาญการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5904307-8&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : -</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5904339&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail :wasuntharee.s@anamai.mail.go.th</p>
+
+<p>3. นางสาวิภาศรี สุวรรณผล &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักโภชนาการปฏิบัติการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5904307-8&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 098-2639591</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5904339&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : wipasri.s@anamai.mail.go.th</p>
+
+<p><strong>สำนักโภชนาการ กรมอนามัย</strong></p>
+";s:8:"director";s:96:"<p>กองแผนงาน กรมอนามัย (ผ่านระบบ KISS)</p>
+";s:8:"reporter";s:694:"<p>1. นางสาววิภาศรี สุวรรณผล&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; นักโภชนาการปฏิบัติการ</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรศัพท์ที่ทำงาน : 02-5904307-8&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์มือถือ : 098-2639591</p>
+
+<p>&nbsp;&nbsp;&nbsp; โทรสาร : 02-5904339&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail : wipasri.s@anamai.mail.go.th</p>
+
+<p><strong>สำนักโภชนาการ กรมอนามัย</strong></p>
+";s:11:"sql_display";s:0:"";s:21:"areabase_kpi_provcode";s:0:"";s:23:"areabase_kpi_regioncode";s:0:"";s:6:"remark";s:0:"";s:12:"content_date";N;s:11:"last_update";s:19:"2017-02-01 10:11:41";s:2:"4e";s:2:"01";s:7:"4e_name";s:143:" Prevention & Promotion Excellence (ส่งเสริมสุขภาพและป้องกันโรคเป็นเลิศ) ";s:7:"plan_id";s:2:"01";s:9:"plan_name";s:139:"การพัฒนาคุณภาพชีวิตคนไทยทุกกลุ่มวัย (ด้านสุขภาพ) ";s:10:"project_id";s:2:"03";s:12:"project_name";s:150:"โครงการพัฒนาและสร้างเสริมศักยภาพคนไทยกลุ่มวัยทำงาน";s:11:"responsible";s:27:"กรมอนามัย";s:2:"pa";s:0:"";s:3:"bie";s:0:"";s:3:"hdc";s:1:"1";s:12:"hosp_visible";N;s:14:"hosp_specifics";s:0:"";s:11:"hosp_ignore";N;s:5:"level";s:27:"ทุก 3 เดือน";s:7:"user_id";N;s:6:"my_kpi";s:1:"0";s:12:"my_kpi_group";N;s:9:"parent_id";s:1:"0";s:6:"result";s:5:"48.42";s:10:"result_r01";s:5:"47.11";s:10:"result_r02";s:5:"43.56";s:10:"result_r03";s:5:"45.79";s:10:"result_r04";s:5:"50.40";s:10:"result_r05";s:5:"49.69";s:10:"result_r06";s:5:"52.05";s:10:"result_r07";s:5:"51.46";s:10:"result_r08";s:5:"48.53";s:10:"result_r09";s:5:"49.71";s:10:"result_r10";s:5:"48.13";s:10:"result_r11";s:5:"44.57";s:10:"result_r12";s:5:"43.75";s:10:"result_r13";N;s:13:"result_r01_q1";N;s:13:"result_r01_q2";N;s:13:"result_r01_q3";N;s:13:"result_r01_q4";s:5:"47.11";s:13:"result_r02_q1";N;s:13:"result_r02_q2";N;s:13:"result_r02_q3";N;s:13:"result_r02_q4";s:5:"43.56";s:13:"result_r03_q1";N;s:13:"result_r03_q2";N;s:13:"result_r03_q3";N;s:13:"result_r03_q4";s:5:"45.79";s:13:"result_r04_q1";N;s:13:"result_r04_q2";N;s:13:"result_r04_q3";N;s:13:"result_r04_q4";s:5:"50.40";s:13:"result_r05_q1";N;s:13:"result_r05_q2";N;s:13:"result_r05_q3";N;s:13:"result_r05_q4";s:5:"49.69";s:13:"result_r06_q1";N;s:13:"result_r06_q2";N;s:13:"result_r06_q3";N;s:13:"result_r06_q4";s:5:"52.05";s:13:"result_r07_q1";N;s:13:"result_r07_q2";N;s:13:"result_r07_q3";N;s:13:"result_r07_q4";s:5:"51.46";s:13:"result_r08_q1";N;s:13:"result_r08_q2";N;s:13:"result_r08_q3";N;s:13:"result_r08_q4";s:5:"48.53";s:13:"result_r09_q1";N;s:13:"result_r09_q2";N;s:13:"result_r09_q3";N;s:13:"result_r09_q4";s:5:"49.71";s:13:"result_r10_q1";N;s:13:"result_r10_q2";N;s:13:"result_r10_q3";N;s:13:"result_r10_q4";s:5:"48.13";s:13:"result_r11_q1";N;s:13:"result_r11_q2";N;s:13:"result_r11_q3";N;s:13:"result_r11_q4";s:5:"44.57";s:13:"result_r12_q1";N;s:13:"result_r12_q2";N;s:13:"result_r12_q3";N;s:13:"result_r12_q4";s:5:"43.75";s:13:"result_r13_q1";N;s:13:"result_r13_q2";N;s:13:"result_r13_q3";N;s:13:"result_r13_q4";N;s:12:"attach_files";s:4:"null";s:12:"content_file";s:4:"null";s:3:"ref";N;s:12:"owner_off_id";N;}}i:1;N;}
