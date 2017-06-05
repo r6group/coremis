@@ -609,7 +609,10 @@ class Profile extends \yii\db\ActiveRecord
      */
     public static function getAvatarByUserId($id)
     {
-        return self::findOne(['user_id' => $id])->getFullAvatarUrl();
+        $model = self::findOne(['user_id' => $id]);
+
+        return $model ?  $model->getFullAvatarUrl() : 'http://zone6.cbo.moph.go.th/phi/images/avatars/' . self::NO_AVATAR_FILENAME;
+
     }
 
 
